@@ -14,5 +14,5 @@
     - **Relative path** is the location of a file in relation to our current location in a file system.
 
      **Absolute path vs relative path**
-     - If we are in a folder and the destination/relative file is in the same folder, we can use the relative path. Absolute paths are used to refer to files in a completely separate folder. Relative path does not expsose all folders on our system.
+     - If we are in a folder and the destination/relative file is in the same folder, we can use the relative path. Absolute paths are used to refer to files in a completely separate folder. Relative path does not expose all folders on our system.
      - In order to move one level up for relative paths, we use the '../' operator.
