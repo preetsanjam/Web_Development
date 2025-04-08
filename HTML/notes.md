@@ -17,4 +17,5 @@
      - If we are in a folder and the destination/relative file is in the same folder, we can use the relative path. Absolute paths are used to refer to files in a completely separate folder. Relative path does not expose all folders on our system.
      - In order to move one level up for relative paths, we use the '../' operator.
 - **Links on the same page:** We can create links to sections on the same page using the id attribute value of the target element/section.
-- The **image tag** is a standalone tag and it takes one mandatory attribute called 'src' which stores the path of the image (image source).    
+- The **image tag** is a standalone tag. It takes one mandatory attribute called **'src'**, which stores the path of the image (image source).
+- The **alt attribute** sets an alternative text which is displayed when an image cannot be rendered on the browsed screen. There can be several reasons for the image not rendering. For example, the path is incorrect or the internet is down. Another use case of alt attribute is for people with disablities. Screen-reader softwares read out the text every time the mouse hovers over an image. In this context, alt attribute is the **web accessibility tool**. 
