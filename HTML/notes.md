@@ -24,7 +24,7 @@
 - **HTML is used to structure webpages (headings, paragraphs, title) whereas CSS is used to make webpages look good.**  
 - Ordered lists (ol tag) are used when the order of items is important. 
 - The table tag is a container tag which works in coordiantion with the following container tags:
-    - <tr> - Table row
+    - `<tr>` - Table row
     - <th> - Table header
     - <td> - Table data
     - <caption> - Table caption (optional)
