@@ -1,5 +1,6 @@
 ## **Notes**
 
+- HTML, which stands for **Hypertext Markup Language**, is used to build a static skeleton of web applications and websites.   
 - Attributes only appear in the opening tag.
 - Attributes are always given as key-value pairs.
 - The body tag contains all tags that will be rendered on the web page.
