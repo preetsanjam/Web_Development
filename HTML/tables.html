@@ -3,11 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Tables</title> 
+        <style>
+            table, th, td {
+                border : 1px solid black; 
+            }
+        </style>
     </head>
     <body>
         <h1>Weathe Report</h1>
         <hr />
-        
+        <table>
+            <thead> <!--Add table headers-->
+                <tr> <!--Put the table headers in a row-->
+                    <th>City</th> <!--Every header has to be in a cell. Hence, the <th> tag. <td> can also  be used.-->
+                    <th>Rainfall</th>
+                    <th>Min Temp</th>
+                    <th>Max Temp</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Bengaluru</td>
+                    <td>5 mm</td>
+                    <td>22 C</td>
+                    <td>33 C</td>
+                </tr>
+            </tbody>
+        </table>
     </body>
 </html>
