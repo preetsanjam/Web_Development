@@ -24,7 +24,7 @@
 - The **ul tag** is used for unordered lists. The unordered lists are used to display lists where order is not of importance. For example, shopping lists and recipe ingredients. 
 - **HTML is used to structure web pages (headings, paragraphs, title) whereas CSS is used to make web pages look good.**  
 - Ordered lists (ol tag) are used when the order of items is important. 
-- The table tag is a container tag which works in coordinantion with the following container tags:
+- The table tag is a container tag which works in coordination with the following container tags:
     - `<tr>` - Table row
     - `<th>` - Table header
     - `<td>` - Table data
@@ -33,4 +33,5 @@
     - `<tbody>` - Table body (optional)
 - Cascading Style Sheets (CSS) is used to style an HTML page. It is included in the HTML using the `<style>` container tag, which is usually placed in the `<head>` tag. 
 - **Forms** are used in the frontend to collect data from the users for future processing. The HTML `<form>` container helps in setting up a form in a web page.
+- The input tag is the most commonly used tag for form elements. The type of form control changes based on the "value" of the type attribute. The type attribute takes various values such as text, button, date, radio, checkbox, email, etc. 
   
