@@ -6,12 +6,14 @@
         <title>Forms</title>
     </head>
     <body>
-        <form>
+        <!-- Without the action attribute, the details will be submitted to form.html -->
+        <!-- With the action attribute, the forms page will make an HTTP request for message.html page -->
+        <form action="message.html"> 
             <label for="name">Name</label>:
             <input type="text" id="name" name="name"/>
 
             <label>Start date: <input type="date" name="start-date"/></label>
-            Password: <input type="password" />
+            Password: <input type="password" name="password"/> <!-- The details are being sent to th-->
 
             <button>Submit</button>
         </form>

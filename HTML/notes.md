@@ -35,5 +35,8 @@
 - **Forms** are used in the frontend to collect data from the users for future processing. The HTML `<form>` container helps in setting up a form in a web page.
 - The input tag is the most commonly used tag for form elements. The type of form control changes based on the "value" of the type attribute. The type attribute takes various values such as text, button, date, radio, checkbox, email, etc.
 - The `<form>` tag is a container tag, whereas the `<input>` tag is a standalone tag.
-- **Query string**: A query string is a set of key-value pairs appended to a url. It is normally used for sending data from one page to another. In forms, all form values are sent to the succeeding page in the query string.   
+- **Query string**: A query string is a set of key-value pairs appended to a url. It is normally used for sending data from one page to another. In forms, all form values are sent to the succeeding page in the query string. 
+    - If the input element does not have a name attribute, the value of that input element will not be passed to the backend.
+    - The query string with a question mark (?) and different key-value pairs are separated by ampersand (&).  
+- The form tag's action attribute stores the url of the page where a user needs to be forwarded to.
   
