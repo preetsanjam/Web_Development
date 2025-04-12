@@ -34,5 +34,6 @@
 - Cascading Style Sheets (CSS) is used to style an HTML page. It is included in the HTML using the `<style>` container tag, which is usually placed in the `<head>` tag. 
 - **Forms** are used in the frontend to collect data from the users for future processing. The HTML `<form>` container helps in setting up a form in a web page.
 - The input tag is the most commonly used tag for form elements. The type of form control changes based on the "value" of the type attribute. The type attribute takes various values such as text, button, date, radio, checkbox, email, etc.
-- The `<form>` tag is a container tag, whereas the `<input>` tag is a standalone tag. 
+- The `<form>` tag is a container tag, whereas the `<input>` tag is a standalone tag.
+- **Query string**: A query string is a set of key-value pairs appended to a url. It is normally used for sending data from one page to another. In forms, all form values are sent to the succeeding page in the query string.   
   
