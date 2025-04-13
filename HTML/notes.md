@@ -43,5 +43,7 @@
     - By default, the method is get.
     - With the post method, the data is submitted to the backend without the query string.
 - **GET vs. POST**: The 'post' method must be used when sending sensitive data (for example, passwords) from source to destinations, since doing so does not lead to any query string generation on the URL. 
+- **HTML 5**: HTML5 is the fifth major HTML version that is recommended by World Wide Web Consortium (W3C).
+- **Validation in forms**: HTML5 tags enable browsers to validate content that is filled in a form on a webpage to ensure storage of required data formats in the database.  
 
   

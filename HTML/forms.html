@@ -9,9 +9,18 @@
         <!-- Without the action attribute, the details will be submitted to form.html -->
         <!-- With the action attribute, the forms page will make an HTTP request for message.html page -->
         <!-- With post method, the data is submitted to the backend without the query string -->
-        <form action="message.html" method="post"> 
+        <form action="message.html" method="post" novalidate> 
             <label for="name">Name</label>:
             <input type="text" id="name" name="name"/>
+
+            <label for="email">Email id</label>:
+            <input type="email" id="email" name="email"/>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" />
+
+            <label for="SearchForProducts">Search for products</label>
+            <input type="search" id="SearchForProducts" name="SearchForProducts" />
 
             <label>Start date: <input type="date" name="start-date"/></label>
             Password: <input type="password" name="password"/> 
