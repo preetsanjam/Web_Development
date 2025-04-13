@@ -39,11 +39,9 @@
     - If the input element does not have a name attribute, the value of that input element will not be passed to the backend.
     - The query string with a question mark (?) and different key-value pairs are separated by ampersand (&).  
 - The form tag's action attribute stores the URL of the page where a user needs to be forwarded to.
-- The method attribute stores the values of the HTTP methods (also called verbs). These verbs inform the backend of the processing method for the current form request. Two of the most commonly used methods are:
-    - get
-    - post
-
-By default, the method is get.
+- The method attribute stores the values of the HTTP methods (also called verbs). These verbs inform the backend of the processing method for the current form request. Two of the most commonly used methods are **get** and **post**.
+    - By default, the method is get.
+    - With the post method, the data is submitted to the backend without the query string.
 - **GET vs. POST**: The 'post' method must be used when sending sensitive data (for example, passwords) from source to destinations, since doing so does not lead to any query string generation on the URL. 
 
   

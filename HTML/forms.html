@@ -8,7 +8,8 @@
     <body>
         <!-- Without the action attribute, the details will be submitted to form.html -->
         <!-- With the action attribute, the forms page will make an HTTP request for message.html page -->
-        <form action="message.html"> 
+        <!-- With post method, the data is submitted to the backend without the query string -->
+        <form action="message.html" method="post"> 
             <label for="name">Name</label>:
             <input type="text" id="name" name="name"/>
 
