@@ -42,6 +42,7 @@
 - The method attribute stores the values of the HTTP methods (also called verbs). These verbs inform the backend of the processing method for the current form request. Two of the most commonly used methods are:
     - get
     - post
+
 By default, the method is get.
 - **GET vs. POST**: The 'post' method must be used when sending sensitive data (for example, passwords) from source to destinations, since doing so does not lead to any query string generation on the URL. 
 
