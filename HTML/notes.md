@@ -46,5 +46,6 @@
 - **GET vs. POST**: The 'post' method must be used when sending sensitive data (for example, passwords) from source to destinations, since doing so does not lead to any query string generation on the URL. 
 - **HTML 5**: HTML5 is the fifth major HTML version that is recommended by World Wide Web Consortium (W3C).
 - **Validation in forms**: HTML5 tags enable browsers to validate content that is filled in a form on a webpage to ensure storage of required data formats in the database.  
+- The textarea is a text input field in a form that allows users to input multi-line information into the form without using multiple, single-line input elements.   
 
   
