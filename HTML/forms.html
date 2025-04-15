@@ -9,21 +9,22 @@
         <!-- Without the action attribute, the details will be submitted to form.html -->
         <!-- With the action attribute, the forms page will make an HTTP request for message.html page -->
         <!-- With post method, the data is submitted to the backend without the query string -->
-        <form action="message.html" method="post" novalidate> 
+        <form action="message.html" method="post"> 
             <label for="name">Name</label>:
-            <input type="text" id="name" name="name"/>
+            <!-- Value attribute set a default value on the input element and required attribute makes it mandatory -->
+            <input type="text" id="name" name="name" value="Sanjam" required/> 
 
             <!-- The label for attribute value and the input id attribute value should be same -->
             <label for="email">Email id</label>:
             <input type="email" id="email" name="email"/>
 
             <label for="quantity">Quantity</label>
-            <input type="number" id="quantity" name="quantity" min="1" max="10" />
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"/>
 
             <label for="SearchForProducts">Search for products</label>
             <input type="search" id="SearchForProducts" name="SearchForProducts" />
 
-            <label>Start date: <input type="date" name="start-date"/></label>
+            <label>Start date: <input type="date" name="start-date" min="2024-02-28" max="2025-02-13"/></label>
             Password: <input type="password" name="password"/>
             
             <label for="address">Address</label>
