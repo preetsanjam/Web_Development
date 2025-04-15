@@ -30,6 +30,16 @@
             <label for="address">Address</label>
             <textarea id="address" rows="6"></textarea> <!-- Six rows will be visible -->
 
+            <label for="city">City</label>
+            <select id="city" name="city">
+                <!-- Value attribute in option tag ensures that BEN will be submitted to backend.-->
+                <!-- It also ensures that the value submitted to the backend is different from display text -->
+                <option value="BEN">Bengaluru</option> 
+                <option selected value="CHD">Chandigarh</option> <!-- selected attribute ensures that Chandigarh is the default option-->
+                <option value="CHE">Chennai</option>
+                <option value="KOL">Kolkata</option>
+            </select>
+
             <button>Submit</button>
         </form>
     </body>
