@@ -16,23 +16,23 @@
 
             <!-- The label for attribute value and the input id attribute value should be same -->
             <label for="email">Email id</label>:
-            <input type="email" id="email" name="email"/>
+            <input type="email" id="email" name="email" />
 
             <label for="quantity">Quantity</label>
-            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1"/>
+            <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" />
 
             <label for="SearchForProducts">Search for products</label>
             <input type="search" id="SearchForProducts" name="SearchForProducts" />
 
-            <label>Start date: <input type="date" name="start-date" min="2024-02-28" max="2025-02-13"/></label>
-            Password: <input type="password" name="password"/>
+            <label>Start date: <input type="date" name="start-date" min="2024-02-28" max="2025-02-13" /></label>
+            Password: <input type="password" name="password" />
             
             <label for="address">Address</label>
             <textarea id="address" rows="6"></textarea> <!-- Six rows will be visible -->
 
             <label for="city">City</label>
             <select id="city" name="city">
-                <!-- Value attribute in option tag ensures that BEN will be submitted to backend.-->
+                <!-- Value attribute in option tag ensures that BEN will be submitted to backend -->
                 <!-- It also ensures that the value submitted to the backend is different from display text -->
                 <option value="BEN">Bengaluru</option> 
                 <option selected value="CHD">Chandigarh</option> <!-- selected attribute ensures that Chandigarh is the default option -->
@@ -42,10 +42,10 @@
 
             <label for="interests">interests</label>
             <fieldset> <!-- Puts the checkbox in a box -->
-                <label><input type="checkbox">Sports</label> <!-- For checkbox, it is preferred to give the input within the label -->
-                <label><input type="checkbox">Current Affalirs</label> <!-- Label on the right of the checkbox-->
-                <label>Films<input type="checkbox"></label> <!-- Label on the left of the checkbox-->
-                <label>Culture<input type="checkbox"></label>
+                <label><input type="checkbox" name="interests" value="sports">Sports</label> <!-- For checkbox, it is preferred to give the input within the label -->
+                <label><input type="checkbox" name="interests" value="current affairs">Current Affalirs</label> <!-- Label appears on the right of the checkbox-->
+                <label><input type="checkbox" name="interests" value="films">Films</label> 
+                <label><input type="checkbox" name="interests" value="culture">Culture</label>
             </fieldset>
 
             <button>Submit</button>
