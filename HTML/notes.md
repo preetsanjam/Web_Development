@@ -48,6 +48,7 @@
 - **Validation in forms**: HTML5 tags enable browsers to validate content that is filled in a form on a webpage to ensure storage of required data formats in the database.  
 - The textarea is a text input field in a form that allows users to input multi-line information into the form without using multiple, single-line input elements. 
 - **Dropdown boxes** in HTML can be created using the `<select>` tag and the `<option>` tag can be used to create the individual options that would be part of the dropdown list.
+- We group a set of checkboxes/radio buttons (so that they are sent under the same query string parameter in URL/request body) by giving each one the same name.  
 
 
   

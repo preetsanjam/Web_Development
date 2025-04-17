@@ -41,11 +41,22 @@
             </select>
 
             <label for="interests">interests</label>
-            <fieldset> <!-- Puts the checkbox in a box -->
-                <label><input type="checkbox" name="interests" value="sports">Sports</label> <!-- For checkbox, it is preferred to give the input within the label -->
-                <label><input type="checkbox" name="interests" value="current affairs">Current Affalirs</label> <!-- Label appears on the right of the checkbox-->
-                <label><input type="checkbox" name="interests" value="films">Films</label> 
-                <label><input type="checkbox" name="interests" value="culture">Culture</label>
+            <fieldset id="interests"> <!-- Puts the checkbox in a box -->
+                <!-- For checkbox, it is preferred to give the input within the label -->
+                <!-- Name attribute ensures that checkboxes are grouped logically -->
+                <label><input type="checkbox" name="interests" value="sports" />Sports</label>
+                <label><input type="checkbox" name="interests" value="current affairs" />Current Affalirs</label> <!-- Label appears on the right of the checkbox-->
+                <label><input type="checkbox" name="interests" value="films" />Films</label> 
+                <label><input type="checkbox" name="interests" value="culture" />Culture</label>
+            </fieldset>
+
+            <label for="country">Country</label>
+            <fieldset id="country">
+                <!-- Radio buttons -->
+                <!-- Checked attribute ensures that India will be chosen by default -->
+                <label><input type="radio" name="country" value="India" checked />India</label>
+                <label><input type="radio" name="country" value="Canada" />Canada</label>
+                <label><input type="radio" name="country" value="US" />United States</label>
             </fieldset>
 
             <button>Submit</button>
