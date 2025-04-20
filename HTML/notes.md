@@ -49,8 +49,12 @@
 - The textarea is a text input field in a form that allows users to input multi-line information into the form without using multiple, single-line input elements. 
 - **Dropdown boxes** in HTML can be created using the `<select>` tag and the `<option>` tag can be used to create the individual options that would be part of the dropdown list.
 - We group a set of checkboxes/radio buttons (so that they are sent under the same query string parameter in URL/request body) by giving each one the same name.
-- The **`<div>` tag** is a container tag used to group a set of elements into a single set. It is often used while grouping elements that have some similarities among them in terms of function and design.  
-- The `<div>` tag is a block-level element, whereas the `<span>` tag is an inline element.   
-
+- The **`<div>` tag** 
+    - It is a block-level tag containing the entire width. Hence, every `<div>` tag will start from a new line and not the same line. 
+    - It is a container tag used to group a set of elements into a single set. 
+    - It is often used while grouping elements that have some similarities among them in terms of function and design.  
+- Any block-level element (for example, `<div>`) will take the full width of the parent element (for example, `<body>`). Other examples of block-level elements are headings (`<h1>`, `<h2>` ... , `<h6>`), paragraphs (`<p>`), unordered list (`<ul>`), ordered list (`<ol>`) and list item (`<li>`).
+- **Default dimensions of a block-level element**: Width is 100% of the parent element and height is only as much as the content within requires. 
+- The `<span>` tag is an inline element.  
 
   
