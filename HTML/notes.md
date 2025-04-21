@@ -54,7 +54,7 @@
     - It is a container tag used to group a set of elements into a single set. 
     - It is often used while grouping elements that have some similarities among them in terms of function and design.  
 - Any block-level element (for example, `<div>`) will take the full width of the parent element (for example, `<body>`). Other examples of block-level elements are headings (`<h1>`, `<h2>` ... , `<h6>`), paragraphs (`<p>`), unordered list (`<ul>`), ordered list (`<ol>`) and list item (`<li>`).
-- **Default dimensions of a block-level element**: Width is 100% of the parent element and height is only as much as the content within requires. 
+- **Default dimensions of a block-level element**: Width is 100% of the parent element and height is only as much as the content within requires. In other words, block-level elements occupy the entire row on a screen irrespective of the requirement.
 - The `<span>` tag is an inline element, meaning it sits on the same line as other content. Other examples of an inline element are the anchor tag (`<a>`) and the image (`<img>`) tag.
 - **Default dimensions of a block-level element**: Width and height is only as much as the content within requires.
 
