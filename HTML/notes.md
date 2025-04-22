@@ -64,5 +64,6 @@
     - It is used when we need to group a set of HTML elements into one for targeting them together for a particular formatting (CSS) or functionality (Javascript). 
     - The dot or period symbol (.) is used to target a particular class in HTML. 
     - An HTML element can belong to multiple classes.
+- The common ansector tag of all HTML tags is the HTML tag. 
 
   
