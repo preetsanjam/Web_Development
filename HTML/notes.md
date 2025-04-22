@@ -57,7 +57,12 @@
 - **Default dimensions of a block-level element**: Width is 100% of the parent element and height is only as much as the content within requires. In other words, block-level elements occupy the entire row on a screen irrespective of the requirement.
 - The `<span>` tag is an inline element, meaning it sits on the same line as other content. Other examples of an inline element are the anchor tag (`<a>`) and the image (`<img>`) tag.
 - **Default dimensions of a block-level element**: Width and height is only as much as the content within requires.
-- The  ID attribute enables us to target exactly one tag in a cluster of tags on a webpage. This targetting is maybe for formatting (CSS) or functionality-based (JavaScript) purposes. **It is not a good practice to give the same ID to two elements.**
-- The hash or pound symbol (#) is used to access a particular id. 
+- **ID attribute**: 
+    - It enables us to target exactly one tag in a cluster of tags on a webpage. This targetting is maybe for formatting (CSS) or functionality-based (JavaScript) purposes. **It is not a good practice to give the same ID to two elements.**
+    - The hash or pound symbol (#) is used to access a particular id. 
+- **Class attribute**: 
+    - It is used when we need to group a set of HTML elements into one for targeting them together for a particular formatting (CSS) or functionality (Javascript). 
+    - The dot or period symbol (.) is used to target a particular class in HTML. 
+    - An HTML element can belong to multiple classes.
 
   

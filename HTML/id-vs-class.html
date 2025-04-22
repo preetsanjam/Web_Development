@@ -8,15 +8,25 @@
             #crimson {
                 color: crimson;
             }
+
+            .intro {
+                font-weight: bold;
+                font-style: italic;
+            }
+
+            .important {
+                text-decoration: underline;
+            }
         </style>
     </head>
     <body>
-        <h1>Heading</h1>
+        <!-- Grouping h1 and para as one class -->
+        <h1 class="intro">Heading</h1>
 
-        <p>
+        <p class="intro important"> <!-- The paragraph element belongs to both intro and important classes -->
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque deserunt cum nesciunt explicabo rerum corrupti vero. Impedit harum nostrum repudiandae itaque earum quaerat facilis perferendis voluptatum temporibus, voluptate ex illo.
         </p>
-        <p id="crimson">
+        <p id="crimson" class="important">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam, exercitationem assumenda, sit laboriosam esse perferendis reiciendis, dolor in sed ipsa repellendus est! Iure quae quia consectetur, velit optio perferendis fuga!
         </p>
         <p>
