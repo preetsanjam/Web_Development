@@ -11,3 +11,4 @@
     - Using color names. For example: yellow
     - Using hexadecimal values. For example: #FFF00
     - Using RGB values. For example: rgb(255,255,0) 
+- **Internal CSS**: Also known as Embedded Stylesheet, the internal stylesheet helps us in applying a particular CSS formatting across the page instead of a specific tag only. This is done using the `<style>` tag, which is conventionally placed in the `<head>` tag of the HTML page.     
