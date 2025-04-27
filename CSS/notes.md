@@ -16,3 +16,6 @@
     - Selectors are methods by which we can target a particular element to be formatted. There are several selectors such as the element, class, ID and *.
     - **Class selector**: A tag or a group of tags are added to a particular class by using their class attributes and then CSS is applied using the class selector.
     - **Specifying a class**:  The dot operator '.' is used to select a particular class in CSS. The selector looks like `.classname`. 
+-  **External stylesheets**
+    - All content for styling is written in a .css file and is later linked to an HTML page using a `<link>` tag.
+    - Advantage: External stylesheets can be applied to any page it is linked to. This is especially useful when applying one format or template across mutltiple pages of a web application.  
