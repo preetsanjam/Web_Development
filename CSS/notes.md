@@ -18,7 +18,7 @@
     - **Specifying a class**:  The dot operator '.' is used to select a particular class in CSS. The selector looks like `.classname`. 
 -  **External stylesheets**
     - All content for styling is written in a .css file and is later linked to an HTML page using a `<link>` tag.
-    - Advantage: External stylesheets can be applied to any page it is linked to. This is especially useful when applying one format or template across mutltiple pages of a web application.  
+    - Advantage: External stylesheets can be applied to any page it is linked to. This is especially useful when applying one format or template across multiple pages of a web application.  
     - The `<link>` tag is used to link an external file to a given HTML page. It takes three main attributes:
         - `<rel>`: The relation of an external file to an HTML page.
         - `<href>`: The URL of an external file.
