@@ -27,4 +27,5 @@
 - The web page renders the CSS in the order of external, internal and, lastly, inline CSS.
 - **ID selector**: The ID selector begins with a hash (#). It selects only one element whereas the class and type selectors select more than one element.
 - **Attribute selector**: The attribute selector allows us to apply formatting to all tags having a specific attribute. The selector is written as [attributename]. It can also be used in combination with a type selector.
-     
+- **Attribute + value selector**: The attribute with the value selector allows us to target tags having an attribute with a particular value. For example, having an `<href>` attribute with the value of the Facebook page's URL.
+- If an element has external, internal and inline CSS applied on it, due to the order of rendering of the CSS, the inline CSS formatting will be rendered for this element.      
