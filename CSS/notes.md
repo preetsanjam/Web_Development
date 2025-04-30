@@ -25,4 +25,6 @@
         - `<type>`: Mime type of an external linked page.
 - Most preferred is the external style. Next is the embedded style. Least preferred is the inline style. 
 - The web page renders the CSS in the order of external, internal and, lastly, inline CSS.
-- **ID selector**: The ID selector begins with a hash (#). It selects only one element whereas the class and type selectors select more than one element. 
+- **ID selector**: The ID selector begins with a hash (#). It selects only one element whereas the class and type selectors select more than one element.
+- **Attribute selector**: The attribute selector allows us to apply formatting to all tags having a specific attribute. The selector is written as [attributename]. It can also be used in combination with a type selector.
+     
