@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Pseudo Class Selectors</title>
         <style>
             /* Pseudo class selector: First letter of every paragraph will be bigger in size */
             p:first-letter {
@@ -19,24 +19,40 @@
                 border: 1px solid black;
             }
 
+            /* Unvisited pseudo class link */
+            /* Link is very specific to the anchor tag */ 
+            a:link {
+                background-color: olive;
+            }
+
+            /* Visited pseudo class link */
+            /* Visited is also very specific to the anchor tag */
+            a:visited {
+                background-color: goldenrod;
+            }
+
             a:hover {
                 background-color: pink;
+            }
+
+            a:active {
+                background-color: purple;
             }
 
             p:hover {
                 background-color: beige;
                 cursor: pointer; /* Hand icon when hovering over the paragraphs */
             }
+
+
         </style>
     </head>
     <body>
         <h1 id="intro">Some heading</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rerum nobis porro recusandae fugiat quos harum, dolorem consequuntur provident reiciendis, officiis 
-            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam rerum nobis porro recusandae fugiat quos harum, dolorem consequuntur provident reiciendis, officiis             
             <a href="https://www.google.com">Google Search Page</a>
             <a href="https://www.google.com" target="_blank">Google Search Page</a>
-
             ipsam eaque illo voluptate aliquam veritatis, alias unde id.
         </p>
         <p>
@@ -44,10 +60,8 @@
         </p>
         <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            <span>Span 1</span>
-            
-            <a href="https://www.facebook.com">Facebook Search Page</a>
-            
+            <span>Span 1</span>            
+            <a href="https://www.facebook.com">Facebook Search Page</a>            
             <span>Span 2</span>
             Eligendi, sapiente hic. Quisquam voluptatem inventore fuga voluptatibus adipisci laboriosam vel facere voluptates similique iusto repellat sit, atque, dicta ipsum molestias pariatur.
         </div>
