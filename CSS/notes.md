@@ -32,7 +32,7 @@
 - Pseudo class selectors are CSS selectors that help in styling the element based on state changes. The common pseudo classes inlcude :link, :active, :visited, :hover, :first-child and :nth-child.
 - Pseudo classes are CSS selectors with a colon preceding them. They specify a special state of an element. 
 - In CSS, the universal selector denoted by * is used to match all the HTML elements on the web page. 
-    Syntax: 
+    Syntax: <br>
     `* {`
     <br>
         `property: value;`
