@@ -33,6 +33,8 @@
 - Pseudo classes are CSS selectors with a colon preceding them. They specify a special state of an element. 
 - In CSS, the universal selector denoted by * is used to match all the HTML elements on the web page. 
     Syntax: 
-    * {
-        property: value;
-    }          
+    `* {`
+    <br>
+        `property: value;`
+    <br>
+    `}`          
