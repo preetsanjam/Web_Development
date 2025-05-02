@@ -37,4 +37,5 @@
     <br>
         `property: value;`
     <br>
-    `}`          
+    `}`      
+- One of the orders for pseudo class selectors is LVHA (link, visited, hover, anchor).    
