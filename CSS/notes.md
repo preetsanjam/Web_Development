@@ -29,7 +29,7 @@
 - **Attribute selector**: The attribute selector allows us to apply formatting to all tags having a specific attribute. The selector is written as [attributename]. It can also be used in combination with a type selector.
 - **Attribute + value selector**: The attribute with the value selector allows us to target tags having an attribute with a particular value. For example, having an `<href>` attribute with the value of the Facebook page's URL.
 - If an element has external, internal and inline CSS applied on it, due to the order of rendering of the CSS, the inline CSS formatting will be rendered for this element.
-- Pseudo class selectors are CSS selectors that help in styling the element based on state changes. The common pseudo classes inlcude :link, :active, :visited, :hover, :first-child and :nth-child.
+- Pseudo class selectors are CSS selectors that help in styling the element based on state changes. The common pseudo classes include :link, :active, :visited, :hover, :first-child and :nth-child.
 - Pseudo classes are CSS selectors with a colon preceding them. They specify a special state of an element. 
 - In CSS, the universal selector denoted by * is used to match all the HTML elements on the web page. 
     Syntax: <br>
@@ -38,4 +38,5 @@
         `property: value;`
     <br>
     `}`      
-- One of the orders for pseudo class selectors is LVHA (link, visited, hover, anchor).    
+- One of the orders for pseudo class selectors is LVHA (link, visited, hover, anchor).
+- CSS Selectors have a concept of **structural pseudo-classes** to allow the selection of elements based on extra information that is available in the document tree which cannot be represented by any other simple selectors or combinators.     
