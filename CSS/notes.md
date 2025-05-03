@@ -40,4 +40,5 @@
     `}`      
 - One of the orders for pseudo class selectors is LVHA (link, visited, hover, anchor).
 - CSS Selectors have a concept of **structural pseudo-classes** to allow the selection of elements based on extra information that is available in the document tree which cannot be represented by any other simple selectors or combinators.  
-- The :nth-child() accepts expressions between those parantheses and is used to select elements depending on a simple given algebric expression. It has the ability to select even/odd elements, "every third", etc.    
+- The :nth-child() accepts expressions between those parantheses and is used to select elements depending on a simple given algebric expression. It has the ability to select even/odd elements, "every third", etc. 
+- The **n-th of type selector** enables selection of the n-th element in a set of same elements.     
