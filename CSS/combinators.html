@@ -9,12 +9,30 @@
             div a {
                 color: olive;
             }
+
+            /* Child selector - > is the parent-child combinator */
+            p > a {
+                font-size: 2em;
+            } 
+            
+            /* No spaces - element that satisfies each individual selector is styled */
+            /* All elements with class 'x' will get lightpink colors  
+            .x {
+                background-color: lightpink;
+            }
+            */            
+
+            /* type selector:class selector */
+            /* Only those paras with class 'x' will get lightpink color */
+            p.x {
+                background-color: lightpink;
+            }
         </style>
     </head>
     <body>
         <div>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore consequuntur iusto distinctio pariatur obcaecati ducimus necessitatibus quidem, quos quasi ab, voluptates illo? Eius ipsum laudantium, in necessitatibus nihil quidem accusamus.
-            <p>
+            <p class="x">
                 Para 1
                 <a href="#">Some link</a> <!-- # indicates that this link does not link to another page -->
             </p>
@@ -23,13 +41,13 @@
                 <a href="#">Some link</a>
             </p>
         </div>
-        <div>
+        <div class="x">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut tenetur harum deleniti numquam est! Possimus soluta aliquid debitis doloribus, voluptatem consequuntur eveniet minima necessitatibus, ipsum illo corporis porro, deleniti placeat.
             <a href="#">Some link</a>
         </div>        
         <div>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni laudantium temporibus nemo illum error at sunt quidem. Ut neque blanditiis asperiores? Alias ipsum saepe pariatur modi cupiditate non sequi recusandae.
-            <p>
+            <p class="x">
                 Para 3
                 <a href="#">Some link</a>
             </p>
