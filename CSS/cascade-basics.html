@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* 
+            Rules are applied in the order they are specified. 
+            When this web page renders, it will first apply crimson color and finally olive color.
+            This is the cascade effect.
+            */
+            p {
+                color: crimson;
+            }
+
+            p {
+                color: olive;
+            }
+        </style>
+        <style>
+            p {
+                color: goldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <style>
+            p {
+                color: blue;
+            }
+        </style>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sequi totam, aliquam asperiores et id blanditiis repudiandae suscipit nihil commodi consequuntur beatae velit minima veniam unde ratione enim quos quibusdam.
+        </p>
+        <style>
+            p {
+                color: purple;
+            }
+        </style>
+    </body>
+</html>
