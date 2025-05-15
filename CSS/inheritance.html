@@ -6,14 +6,23 @@
         <title>Document</title>
     </head>
     <body>
-        <!-- Color property in parent element (div) gets inherited by child element (p) by default-->
-        <div style="color: goldenrod;">
+        <!-- Color property in parent element (div) gets inherited by child element (p) by default -->
+        <!-- Color is inherited by default -->
+        <div style="color: goldenrod; border: 2px solid crimson; margin: 2px;">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem cum nesciunt soluta, fuga nulla ducimus sit consequatur commodi voluptate magnam quae libero nostrum reprehenderit voluptatum fugiat suscipit et doloribus quos?
             Aut ipsum nihil blanditiis consectetur necessitatibus delectus perferendis, sequi veritatis in quibusdam natus excepturi at qui quaerat eius ut quia consequatur culpa laudantium. Facere excepturi quo qui natus voluptatem vitae.
             <!-- By giving para its own color property, parent element's property gets overwritten -->
-            <p style="color: purple;"> 
+            <!-- By default, border is not inherited -->
+            <p style="color: purple; border: 2px solid crimson; margin: 2px;"> 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur cum quas, labore at deserunt sed iusto quo eum. Officia voluptas impedit nobis provident laudantium? Sapiente quos dolore voluptas ea asperiores!
                 Animi cumque aut voluptatum. Iure esse ipsa qui tenetur. Id quis aliquid laborum! Ea ex repellat debitis magnam, eum quaerat, eligendi deserunt nam suscipit ad eos esse facilis necessitatibus maiores?
+                <span style="border: 2px solid crimson;">Span</span>
+            </p>
+            <!-- Another way of inherting from the parent class, eg: border: inherit -->
+            <!-- This para will not inherit color property from the parent class. It will have the default value of the browser --> 
+            <p style="color: initial; border: inherit; margin: inherit;">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis praesentium, id quod autem dolorem eaque culpa exercitationem nihil voluptatibus dolorum atque deserunt illum earum repudiandae reiciendis, nemo ipsa iusto quia!
+                Delectus, totam! Nisi corporis ipsa natus. Pariatur ipsa sunt dolor nostrum molestias enim doloremque, eveniet aliquid recusandae, modi nobis cum veniam excepturi explicabo quis possimus quam alias quisquam, eum facere.
             </p>
         </div>
     </body>
