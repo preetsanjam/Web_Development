@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            /* Pointer will only be applied to the second item in the ul tag which is outside the div tag */
+            ul > li.highlight {
+                cursor: pointer;
+            }
+
+            /* Styles will only be applied to the ul tag which is within the div tag */
+            div ul > li:hover {
+                background-color: olive;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, at alias consectetur dolorem in cupiditate eligendi! Fugit expedita dolor optio placeat ducimus, quis distinctio facere aliquid assumenda rem, tempore ut.
+            Placeat ipsa esse quae consectetur minima dolores? Eius ea culpa id expedita ullam necessitatibus quod inventore aliquam similique, sint eos numquam cumque assumenda doloremque? Nulla aspernatur eligendi magnam sequi aliquam.
+
+            <ul>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+            </ul>
+        </div>
+
+        <ul>
+            <li>Apples</li>
+            <li class="highlight">Oranges</li>
+            <li>Bananas</li>
+        </ul>
+    </body>
+</html>
