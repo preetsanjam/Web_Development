@@ -10,7 +10,8 @@
             Rules are applied in the order they are specified. 
             When this web page renders, it will first apply crimson color and finally olive color.
             This is the cascade effect.
-            Rule: The last one will always win.
+            Rule: The last one will always win only if the selectors are the same.
+            On this web page, we are using only the type selector. Therefore, color specified in the last style tag will be applied. 
             */
             p {
                 color: crimson;
