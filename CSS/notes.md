@@ -44,3 +44,10 @@
 - The **n-th of type selector** enables selection of the n-th element in a set of same elements. 
 - Inline styles are the most important. They trump embedded and external styles. 
 - On an HTML page, there can be many paragraphs but there will be fewer elements with a given class. When a selector targets elements with a class, it is given more importance. Styles given through the class selector will be applied. **A class selector is more specific than a type selector. This concept is called specificity.**     
+- **Specificity values**
+    - Specificity values come into play when there are conflicting property values.
+    - These are denoted in the form of (a, b, c, d).
+    - For inline styles, specificity value will always be (1, 0, 0, 0). Here, 1 denotes the value of 'a'.
+    - The value of 'b' denotes the number of times IDs appear in that selector.
+    - The value of 'c' denotes the number of times classes, including pseudo classes, appear in that selector. 
+    - The value of 'd' dentoes the number of times types appear in that selector.

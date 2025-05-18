@@ -5,16 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
-            div ul > li {
+            /* Specificity values */
+            /* (a, b, c, d) */
+            /* (0/1, # of times IDs appear, # of times classes appear, # of times types appear) */
+            /* (0, 0, 0, 2) */
+            /* d = 2 because we have two type selectors - ul and li */
+            ul > li {
                 cursor: pointer;
             }
 
+            /* (0, 0, 2, 4) */
+            /* goldenrod, and not olive, will be applied because the selector with div is more specific */
             div ul > li.highlight:hover > span {
                 background-color: goldenrod;
             }
 
+            /* (0, 0, 2, 3)*/
             ul > li.highlight:hover > span {
                 background-color: olive;
+                font-size: 1.5em;
             }
         </style>
     </head>
@@ -24,7 +33,7 @@
             Placeat ipsa esse quae consectetur minima dolores? Eius ea culpa id expedita ullam necessitatibus quod inventore aliquam similique, sint eos numquam cumque assumenda doloremque? Nulla aspernatur eligendi magnam sequi aliquam.
 
             <ul>
-                <li>One</li>
+                <li>One</li> <!-- style="cursor: pointer;" Specificity value: (1, 0, 0, 0)-->
                 <li class="highlight"><span>Two</span></li>
                 <li>Three</li>
             </ul>
