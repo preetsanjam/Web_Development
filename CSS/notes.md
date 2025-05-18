@@ -51,3 +51,9 @@
     - The value of 'b' denotes the number of times IDs appear in that selector.
     - The value of 'c' denotes the number of times classes, including pseudo classes, appear in that selector. 
     - The value of 'd' dentoes the number of times types appear in that selector.
+- Colors in CSS: 
+    - When colors are specified in the 'rgb' format, a value is assigned to each of the three components of the format.
+    - rgb(0, 0, 0): black
+    - rgb(128, 128, 128): grey 
+    - rgb(255, 255, 255): white
+    - rgb(255, 255, 0): yellow
