@@ -57,3 +57,4 @@
     - rgb(128, 128, 128): grey 
     - rgb(255, 255, 255): white
     - rgb(255, 255, 0): yellow
+    - rgb(255, 128, 128): orange
