@@ -58,3 +58,6 @@
     - rgb(255, 255, 255): white
     - rgb(255, 255, 0): yellow
     - rgb(255, 128, 128): orange
+- The **box model** helps us control the dimensions of all elements on a given HTML page.
+    - Block-level elements always start on a new line and have some margin before and after the element. They take up the full available screen width. For example, body and div tags.
+    - Inline elements do not start on a new line and take up only the required width. For example, span tag.  
