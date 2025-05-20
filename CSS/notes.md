@@ -50,7 +50,7 @@
     - For inline styles, specificity value will always be (1, 0, 0, 0). Here, 1 denotes the value of 'a'.
     - The value of 'b' denotes the number of times IDs appear in that selector.
     - The value of 'c' denotes the number of times classes, including pseudo classes, appear in that selector. 
-    - The value of 'd' dentoes the number of times types appear in that selector.
+    - The value of 'd' denotes the number of times types appear in that selector.
 - Colors in CSS: 
     - When colors are specified in the 'rgb' format, a value is assigned to each of the three components of the format.
     - rgb(0, 0, 0): black
@@ -62,4 +62,5 @@
     - Block-level elements always start on a new line and have some margin before and after the element. They take up the full available screen width. For example, body and div tags.
     - Inline elements do not start on a new line and take up only the required width. For example, span tag.
 - **Units in HTML/CSS**: The attributes such as width and height take up various values in various units such as pixels and percentage of the screen or even take string values like auto, initial and inherit to set the width and height of an element. 
-- The type of values taken by the height attribute are the same as those accepted by the width attribute.    
+- The type of values taken by the height attribute are the same as those accepted by the width attribute. 
+- The min-width and the max-width properties override the values set by the width property.    
