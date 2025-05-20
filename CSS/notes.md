@@ -61,4 +61,5 @@
 - The **box model** helps us control the dimensions of all elements on a given HTML page.
     - Block-level elements always start on a new line and have some margin before and after the element. They take up the full available screen width. For example, body and div tags.
     - Inline elements do not start on a new line and take up only the required width. For example, span tag.
-- **Units in HTML/CSS**: The attributes such as width and height take up various values in various units such as pixels and percentage of the screen or even take string values like auto, initial and inherit to set the width and height of an element.    
+- **Units in HTML/CSS**: The attributes such as width and height take up various values in various units such as pixels and percentage of the screen or even take string values like auto, initial and inherit to set the width and height of an element. 
+- The type of values taken by the height attribute are the same as those accepted by the width attribute.    
