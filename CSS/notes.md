@@ -64,4 +64,5 @@
 - **Units in HTML/CSS**: The attributes such as width and height take up various values in various units such as pixels and percentage of the screen or even take string values like auto, initial and inherit to set the width and height of an element. 
 - The type of values taken by the height attribute are the same as those accepted by the width attribute. 
 - The min-width and the max-width properties override the values set by the width property.    
-- **Padding** refers to the space between the tag's content and its border from all sides, ie, top, bottom, left and right of the element's content. Padding can be set individually on the top, left, right and bottom portions of the element border, or the values can be clubbed in various ways.  
+- **Padding** refers to the space between the tag's content and its border from all sides, ie, top, bottom, left and right of the element's content. Padding can be set individually on the top, left, right and bottom portions of the element border, or the values can be clubbed in various ways. 
+- Similar to padding, the border for various sides of an element can be individually specified. However, this is not the standard practice since we prefer having the same border style on all sides of the element.   
