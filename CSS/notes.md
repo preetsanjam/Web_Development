@@ -65,4 +65,5 @@
 - The type of values taken by the height attribute are the same as those accepted by the width attribute. 
 - The min-width and the max-width properties override the values set by the width property.    
 - **Padding** refers to the space between the tag's content and its border from all sides, ie, top, bottom, left and right of the element's content. Padding can be set individually on the top, left, right and bottom portions of the element border, or the values can be clubbed in various ways. 
-- Similar to padding, the border for various sides of an element can be individually specified. However, this is not the standard practice since we prefer having the same border style on all sides of the element.   
+- Similar to padding, the **border** for various sides of an element can be individually specified. However, this is not the standard practice since we prefer having the same border style on all sides of the element.
+- **Margin** is the space between two elements. Similar to padding and border, various margins that are top, left, right and bottom can be set individually or in combinations.      
