@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <style>
+            /* html {
+                font-size: 10px;
+            } */
+
             p:nth-of-type(1) {
                 font-family: Garamond, "Times New Roman", serif;
             }
@@ -58,6 +62,28 @@
                 text-transform: capitalize; /* First letter of every word will be capitalized. Used for titles */
             }
 
+            /* Font size: Absolute unit */
+            p:nth-of-type(14) {
+                font-size: 32px; /* 16px is the default */
+            }
+
+            div {
+                font-size: 30px;
+            }
+
+            /* Font size: Relative unit 1 */
+            div p {                
+                font-size: 2em; /* Paragraph within div inherits the font size and it is 2 times 24 (inherited value) */
+            }  
+            
+            /* Font size: Relative unit 2
+             div p {
+                font-size: 2rem; 
+                'r' denotes root, which is the html tag. 
+                Font size is inherited from the root element. 
+                Font size: 2 * 10
+            } */
+
             a {
                 text-decoration: none; /* Removes the underline from the anchor tag */
             }
@@ -81,9 +107,10 @@
         <p>Ratione animi et, maiores minus illo vero commodi ipsam magnam facere inventore ipsum nobis amet. Quia, non repudiandae aperiam corrupti temporibus beatae rerum magni facere, accusantium doloremque, repellendus ipsum vel.</p>
         <p>Alias asperiores quaerat ullam! Dignissimos quasi ullam vel soluta ad voluptate voluptatem architecto incidunt alias similique quaerat dolorem est, voluptatum minima repellendus sapiente sint suscipit cupiditate reprehenderit iste deleniti inventore!</p>
         <p>Totam ad ipsam, cumque iusto placeat sit porro ea similique excepturi laborum possimus aperiam eos quae veritatis asperiores eveniet. Aliquid, odit! Quas aut modi provident temporibus reiciendis debitis error eveniet.</p>
-        <p>Excepturi dicta velit assumenda. Quidem dolorum autem dolorem nemo recusandae eligendi doloribus distinctio, quod a odio neque cum voluptates. Optio a aspernatur eos, quisquam reprehenderit harum pariatur ut iusto sequi!</p>
-        <p>Nisi, ratione nulla! Cupiditate commodi dolorum molestiae, aliquid eos deserunt aut quia. Atque iure, facere optio cum nisi animi molestiae, quam quia omnis earum quod error ad, placeat ipsum fuga!</p>
-        <p>Possimus totam dicta eligendi, voluptate ipsum excepturi modi nostrum soluta corporis doloremque unde voluptas omnis distinctio harum at tenetur quia, sit placeat labore, voluptates eum ratione autem incidunt? Quas, consectetur.</p>
+        <div> 
+            <p>Nisi, ratione nulla! Cupiditate commodi dolorum molestiae, aliquid eos deserunt aut quia. Atque iure, facere optio cum nisi animi molestiae, quam quia omnis earum quod error ad, placeat ipsum fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione impedit repellat quisquam, velit nesciunt exercitationem placeat facere voluptate error nihil eius, nobis alias dolore! Voluptatibus eligendi dolorem blanditiis nulla alias.</p>
+        </div>
+        <p>Possimus totam dicta eligendi, voluptate ipsum excepturi modi nostrum soluta corporis doloremque unde voluptas omnis distinctio harum at tenetur quia, sit placeat labore, voluptates eum ratione autem incidunt? Quas, consectetur.</p>               
         <p>Ipsum perspiciatis officia nisi libero dicta doloribus doloremque reiciendis excepturi in. Molestiae dolores, veniam minus aliquid velit quia asperiores alias! Eum, neque repudiandae obcaecati iure sed ipsa tempora praesentium ut!</p>
         <p>Pariatur totam quis et assumenda non ipsam odio necessitatibus modi, commodi labore, sunt asperiores amet, dicta ad. Omnis, officiis fuga ea, ipsum sapiente corrupti saepe delectus, iure quia harum incidunt.</p>
         <p>Dignissimos maxime explicabo itaque facilis est harum quibusdam, sed laborum corrupti minima quos, optio ab voluptates consequatur! Alias molestias eaque doloremque facilis temporibus dolores perferendis voluptas exercitationem! Dolores, ex possimus.</p>
