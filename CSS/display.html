@@ -9,7 +9,11 @@
             It will take the entire width of a webpage. We can make it an inline element. */
             div {
                 display: inline;
+                
+                /* Restriction on inline display elements.
+                Cannot give padding and margin.
                 padding: 20px;
+                margin: 20px; */
             }
 
             /* Changing inline element to block-level element */
@@ -17,6 +21,15 @@
                 display: block;
                 border: 1px solid black;
                 padding: 10px;
+                width: 50% /* Width works for display block elements */
+            }
+
+            p {
+                display: inline-block;
+                border: 1px solid black;
+                padding: 10px;
+                width: 500px;
+                margin: 50px;
             }
         </style>
     </head>
@@ -35,5 +48,11 @@
         </div>
         <a href="https://www.google.com" target="_blank">Google</a>
         <a href="https://www.facebook.com">Facebook</a>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        </p>
     </body>
 </html>
