@@ -9,7 +9,18 @@
                 width: 300px;
                 height: 200px;
                 padding: 20px;
+                border: 1px solid black;
+                
                 /* overflow: hidden; overflow text will be hidden. useful for images */ 
+                /* overflow-y: scroll; scroll bar only along y-axis */
+                overflow: auto; /*scroll bar appears only if there is an overflowing content */
+
+                /* Another method to handle overflowing content is resize: 
+                Not user-friendly. It might mess with the layout of the page.
+                Use it with overflow: hidden
+                overflow: hidden;
+                resize: vertical; resize the box vertically 
+                resize: both; resize the box both horizontally and vertically */
             }
         </style>
     </head>
