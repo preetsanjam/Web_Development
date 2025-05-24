@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            div {
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            #message {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            1. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, explicabo eligendi molestiae reiciendis mollitia quod vitae voluptate optio accusantium est ipsam eos consequuntur, labore placeat recusandae vero enim natus odio!
+        </div>
+        <div id="message">
+            2. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit harum aperiam obcaecati repudiandae beatae porro soluta dolore eveniet illo, sapiente, omnis, enim accusamus quo! Porro at sit dolorum officia autem.
+        </div>
+        <div>
+            3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error voluptatibus consequuntur. Pariatur ducimus debitis commodi tempora ex ipsum, laboriosam eos? Suscipit ipsum, consequatur maiores vel culpa officia eum autem.
+        </div>
+
+        <script>
+            setTimeout(function() {
+                document.getElementById("message").style.display = "block";
+            }, 5000);
+        </script>
+    </body>
+</html>
