@@ -21,6 +21,9 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 "string", "number", "boolean", "object", "function", "undefined", "symbol", and "bigint".
 - The concat() method is used to combine/merge two or more strings. It does not change the existing string, but returns a new string. 
 - **Garbage collection** is the process by which a programming language (like JavaScript, Java or Python) automatically frees up memory that is no longer being used by the program.
-    If there are two references, `x` and `y`, pointing to the same object in memory, and you set `x = null`, the object will not be removed from memory as long as `y` still references it.
-    In most programming languages with garbage collection (like JavaScript or Java), an object is only eligible for garbage collection when no references to it remain. Since `y` still points to the object, it stays in memory.
+    - If there are two references, `x` and `y`, pointing to the same object in memory, and you set `x = null`, the object will not be removed from memory as long as `y` still references it. In most programming languages with garbage collection (like JavaScript or Java), an object is only eligible for garbage collection when no references to it remain. Since `y` still points to the object, it stays in memory.
+- The **scope** refers to the availability of functions and variables in particular parts of the code. In JavaScript, we have three types of scope: block, function and global scope.
+- The scope defines the visibility and accessibility of a variable. 
+- **Global scope** refers to any variable declared outside of a function that can be accessed anywhere in the program. It can be defined using any of the three keywords: `let`, `const` and `var`.
+- In JavaScript, global variables can be changed by any part of the code. Using global variables causes very tight coupling of the code. It adds risks of data type and reference errors if you overwrite values at the wrong time.  
 
