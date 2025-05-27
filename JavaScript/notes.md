@@ -28,4 +28,6 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - In JavaScript, global variables can be changed by any part of the code. Using global variables causes very tight coupling of the code. It adds risks of data type and reference errors if you overwrite values at the wrong time.  
 - A **global variable** is a variable that is declared in the global scope, i.e. a variable that is visible from all other scopes.
 - In JavaScript, the local scope variable is also referred to as function scope.
+- In JavaScript, if a variable is declared without the `var`, `let` or `const` keywords, it is automatically considered a global variable. This occurs because JavaScript, in the absence of explicit declaration keywords, assigns the variable to the global scope.
+- **Variables can have the same name as long as they are in different scopes.**
 
