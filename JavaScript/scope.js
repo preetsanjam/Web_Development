@@ -19,8 +19,7 @@ function foo() {
     function bar() {
         var local_bar_x = 3;
 
-        // We can declare a variable without the var keyword
-        // It is a global variable  
+        // local_bar_y is assigned without the var keyword => becomes global (in sloppy mode) 
         local_bar_y = 4;
 
         console.log('Inside of bar, global_x = ', global_x);
