@@ -43,5 +43,3 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     JavaScript uses IEEE 754 standard for representing numbers.
     Some decimal fractions (like 0.1 or 0.2) cannot be represented exactly in binary.
     So when you add 0.1 + 0.2, the result is slightly off: 0.30000000000000004
-
-- Hello.
