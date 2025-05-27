@@ -33,7 +33,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - An operator is capable of performing manipulations on certain values or operands. Operators are used to perform particular mathematical or logical computations on operands.
 - **Arithmetic operators** help in performing mathematical operations between numerical operands. Arithmetic operators include +, - , /, %, **, ++ and --. 
     - In JavaScript, numbers are stored as floating point numbers.
-    ```Example:
+    Example:
     We cannot be sure that 0.1 + 0.2 = 0.3 in JavaScript because of how floating-point arithmetic works.
     What actually happens?
             ``console.log(0.1 + 0.2);       // 0.30000000000000004
