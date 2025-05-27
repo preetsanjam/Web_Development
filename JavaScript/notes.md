@@ -30,4 +30,25 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - In JavaScript, the local scope variable is also referred to as function scope.
 - In JavaScript, if a variable is declared without the `var`, `let` or `const` keywords, it is automatically considered a global variable. This occurs because JavaScript, in the absence of explicit declaration keywords, assigns the variable to the global scope.
 - **Variables can have the same name as long as they are in different scopes.**
+- An operator is capable of performing manipulations on certain values or operands. Operators are used to perform particular mathematical or logical computations on operands.
+- **Arithmetic operators** help in performing mathematical operations between numerical operands. Arithmetic operators include +, - , /, %, **, ++ and --. 
+    - In JavaScript, numbers are stored as floating point numbers.
+    | -- |
+    | Example: |
+    We cannot be sure that 0.1 + 0.2 === 0.3 in JavaScript — because of how floating-point arithmetic works.
+
+💡 What actually happens?
+javascript
+Copy
+Edit
+console.log(0.1 + 0.2);       // 0.30000000000000004
+console.log(0.1 + 0.2 === 0.3); // false
+🤔 Why?
+JavaScript uses IEEE 754 standard for representing numbers.
+
+Some decimal fractions (like 0.1 or 0.2) cannot be represented exactly in binary.
+
+So when you add 0.1 + 0.2, the result is slightly off: 0.30000000000000004
+
+ 
 
