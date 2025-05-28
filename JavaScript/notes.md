@@ -20,7 +20,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - V8 is a free and open-source JavaScript engine developed by the Chromium Project for Google Chrome and Chromium web browsers. V8 engine directly converts scripts to machine code without building any intermediate code, making it different from other JS engines. 
 - In JavaScript, non-primitive data types are derived from primitive data types. These are called reference types because they refer to objects. The data type values can be altered hence known as mutable data types.  
 - There is no explicit data typing in JavaScript.
-- The `typeof` operator in JavaScript is designed to return a string that represents the data type of a given operand. Regardless of the operand's actual type, the typeof operator will always evaluate to one of the following strings:
+- The `typeof` operator in JavaScript is designed to return a string that represents the data type of a given operand. Regardless of the operand's actual type, the `typeof` operator will always evaluate to one of the following strings:
 "string", "number", "boolean", "object", "function", "undefined", "symbol", and "bigint".
 - The concat() method is used to combine/merge two or more strings. It does not change the existing string, but returns a new string. 
 - **Garbage collection** is the process by which a programming language (like JavaScript, Java or Python) automatically frees up memory that is no longer being used by the program.
@@ -34,8 +34,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - In JavaScript, if a variable is declared without the `var`, `let` or `const` keywords, it is automatically considered a global variable. This occurs because JavaScript, in the absence of explicit declaration keywords, assigns the variable to the global scope.
 - **Variables can have the same name as long as they are in different scopes.**
 - An operator is capable of performing manipulations on certain values or operands. Operators are used to perform particular mathematical or logical computations on operands.
-- **Arithmetic operators** help in performing mathematical operations between numerical operands. Arithmetic operators include +, - , /, %, **, ++ and --. 
-    - In JavaScript, numbers are stored as floating point numbers.
+- **Arithmetic operators** help in performing mathematical operations between numerical operands. Arithmetic operators include +, - , /, %, **, ++ and --. In JavaScript, numbers are stored as floating point numbers.
     ```Example:
     We cannot be sure that 0.1 + 0.2 = 0.3 in JavaScript because of how floating-point arithmetic works.
     What actually happens?
