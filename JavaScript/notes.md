@@ -50,3 +50,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - '===' operator compares the equality of two operands with its data type. It compares both **value** and **type**.
 - **Logical operators** are used to determine the logic between two values or variables. It returns boolean values and checks whether multiple conditions are true or false.
 - Operator precedence tells us which operation is performed first in an expression which has more than one operator with different precedence. The logical AND operator (&&) has higher precedence than the logical OR operator (||).  
+- The new operator creates an instance of a user-defined object type or of one of the built-in object types that have a constructor function.
+- Associativity is used when two or more operators with the same precedence are present in the same expression. It defines the order in which operations of the same precedence are performed. 
