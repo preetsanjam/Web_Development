@@ -8,6 +8,9 @@
     - JavaScript is interpreted line by line.
     - We can build the backend of an application using JavaScript.
     - JavaScript is the only language for writing scripts for the frontend of an application.
+- `console.log()` is a built-in JavaScript function used to print messages to the console (usually the browser’s developer tools or terminal). 
+    - `console` --> JavaScript object for accessing the console
+    - `.log()` --> Method that prints a message
 - In JavaScript, a primitive data type is data that is not an object and has no methods or properties. A few primitive data types include number, string, boolean, NULL, etc.
 - A variable that is declared and not assigned a value is of type 'undefined'.
 - 'Undefined' is a data type by itself. It means a variable has been declared but has not been assigned a value.
@@ -47,3 +50,4 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - '==' operator compares the equality of two operands without taking the data type into account. It compares values after **type coercion**. 
     - '===' operator compares the equality of two operands with its data type. It compares both **value** and **type**.
 - **Logical operators** are used to determine the logic between two values or variables. It returns boolean values and checks whether multiple conditions are true or false.
+- Operator precedence tells us which operation is performed first in an expression which has more than one operator with different precedence. The logical AND operator (&&) has higher precedence than the logical OR operator (||).  
