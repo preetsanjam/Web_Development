@@ -46,3 +46,20 @@ switch(chocolate) {
 
 console.log(quantity); 
 // If the value of the chocolate variable does not match with any of the cases, default value will be printed 
+
+var domain = 'Healthcare', income;
+switch(domain) {
+    case 'IT':
+        income = 150000;
+        break;
+    case 'Healthcare':
+        income = 120000;
+        break;
+    case 'Aerospace':
+        income = 250000;
+        break;
+    default:
+        income = 80000; 
+}
+
+console.log('Income is ', income);
