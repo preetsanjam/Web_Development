@@ -53,3 +53,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - The new operator creates an instance of a user-defined object type or of one of the built-in object types that have a constructor function.
 - **Associativity** is used when two or more operators with the same precedence are present in the same expression. It defines the order in which operations of the same precedence are performed. 
 - **Branching** tranfers control from the current statement to another statement in the program. It alters the execution sequence.
+- The `for` loop iterates over elements a fixed number of times. It should be used if the number of iterations is known.
+- `while` vs `do while` loop:
+    - `while` loop evaluates the condition first and then executes the loop.
+    - `do while` executes the loop and then evaluates the condition.
