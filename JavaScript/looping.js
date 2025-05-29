@@ -29,10 +29,21 @@ for(var i = 3; i <= 30; i += 3) {
 console.log('Loop with a multiples of 3 stops')
 
 // while loop
+
+// Incrementing loop
 var j = 1
-while (j <= 10) {
+while(j <= 10) {
     console.log(j);
     j++;
 }
 
-console.log('while loop stops')
+console.log('Incrementing while loop stops')
+
+// Decrementing loop
+var k = 10
+while(k >= 1) {
+    console.log(k);
+    k--;
+} 
+
+console.log('Decrementing while loop stops')
