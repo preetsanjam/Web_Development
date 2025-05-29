@@ -62,9 +62,11 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **Strict mode** (`'use strict';`) removes few JavaScript errors and fixes mistakes that make it difficult for JavaScript engines to perform optimizations. One use case: In strict mode, we cannot create a variable without a `var` keyword.
 - A **function declaration** gives the information to the JavaScript engine about the function's name, return type and parameters. When a function is declared, it can be used anytime inside a class or development scope whenever it's called/invoked.
 - A **function expression** is used to define a function inside any expression. It allows us to create an anonymous function that doesn't have any name.
-<div>
-    | Function declaration | Function expression |
-    | :--------------------| :-------------------|
-    | Function declaration are loaded before any code is executed. | Function expression loads when the interpreter reaches that line of code. |
-    | Function declarations are hoisted on top of the other code. | Function expression aren't hoisted.|   
+<div style = 'border: 1px solid; padding: 10px;'>
+<strong>
+| Function declaration | Function expression |
+| :--------------------| :-------------------|
+| Function declaration are loaded before any code is executed. | Function expression loads when the interpreter reaches that line of code. |
+| Function declarations are hoisted on top of the other code. | Function expression aren't hoisted.|   
+</strong>
 </div>
