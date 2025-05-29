@@ -1,3 +1,5 @@
+'use strict';
+
 var priceOfPhone = 42000, bankBalance = 20000, creditLimit = 60000;
 
 if (priceOfPhone < bankBalance) {
@@ -25,3 +27,22 @@ else {
 }
 
 console.log('Transaction is over.')
+
+// Switch statement
+var chocolate = 'Kit-Kat', quantity;
+switch(chocolate) {
+    case 'Dairy Milk':
+        quantity = 10;
+        break;
+    case 'Kit-Kat':
+        quantity = 8;
+        break;
+    case 'Hersheys':
+        quantity = 50;
+        break;
+    default:
+        quantity = 2;
+} 
+
+console.log(quantity); 
+// If the value of the chocolate variable does not match with any of the cases, default value will be printed 
