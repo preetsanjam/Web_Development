@@ -60,3 +60,4 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **Switch statements**: The main aim of switch statements is to give an expression to evaluate and execute a number of different statements based on the value of the expression. If no match is found, a default condition will be used. 
     - The default switch case is not mandatory in the switch statement. However, it is recommended to add that in situations where none of the cases match.
 - **Strict mode** (`'use strict';`) removes few JavaScript errors and fixes mistakes that make it difficult for JavaScript engines to perform optimizations. One use case: In strict mode, we cannot create a variable without a `var` keyword.
+- A function declaration gives the information to the JavaScript engine about the function's name, return type and parameters. When a function is declared, it can be used anytime inside a class or development scope whenever it's called/invoked.
