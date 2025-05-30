@@ -67,3 +67,4 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - Function declarations are hoisted on top of the other code, while function expression aren't hoisted. 
 - **Arguments** are array-like objects accessible inside functions. It contains the values of the arguments passed to that function. Arguments have a length property starting with zero.
 - A function that does not have a name associated with it is called an **anonymous function**. To define a function, we use the keyword `function` before the function name. 
+- To pass a function as an argument to other functions, an anonymous function can be used. One of the use cases of an anonymous function is that it prevents the use of global variables. 
