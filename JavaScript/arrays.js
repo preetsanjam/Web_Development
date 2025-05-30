@@ -37,7 +37,7 @@ console.log(dummyArray);
 var matrix = [
     [1, 2, 3, 4],
     [5, 6, 7, 8],
-    [9, 10, 11, 12, 13, 14]
+    [9, 10, 11, 12, 13, 14] // Each array item can have different number of elements
 ];
 
 console.log(matrix[1][2]);
