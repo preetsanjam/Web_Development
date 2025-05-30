@@ -75,3 +75,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - IIFE has its own scope by restricting variables and functions to become global.
     - IIFE can have a name or can be anonymous. However, if an IIFE does not have a name, it is impossible to refer to/invoke it.
     - IIFE can also have parameters.
+- **Arrays:** 
+    - In JavaScript, **arrays** are a special type of object. The `typeof` operator returns "object" for arrays.
+    - Arrays are resizable and can consist of a mix of different data types.
+    - Arrays are zero-indexed.   
