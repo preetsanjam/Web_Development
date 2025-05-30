@@ -69,4 +69,9 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - A function that does not have a name associated with it is called an **anonymous function**. To define a function, we use the keyword `function` before the function name. 
 - To pass a function as an argument to other functions, an anonymous function can be used. One of the use cases of an anonymous function is that it prevents the use of global variables.
 - Minimizing the use of global variables is recommended as the excess use of global variables will lead to high coupling in different portions of a program, increasing program complexity and reducing the chances of software defects.
-- An **Immediately Invoked Function Expression (IIFE)** is a way to execute functions immediately, as soon as they are defined. IIFEs are very useful as they do not pollute the global object and provide an easy way to isolate variable declarations. IIFE has its own scope by restricting variables and functions to become global.     
+- **Immediately Invoked Function Expression (IIFE):** 
+    - IIFE is a way to execute functions immediately, as soon as they are defined. 
+    - IIFEs are very useful as they do not pollute the global object and provide an easy way to isolate variable declarations. 
+    - IIFE has its own scope by restricting variables and functions to become global.
+    - IIFE can have a name or can be anonymous. However, if an IIFE does not have a name, it is impossible to refer to/invoke it.
+    - IIFE can also have parameters.
