@@ -64,4 +64,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - A **function expression** is used to define a function inside any expression. It allows us to create an anonymous function that doesn't have any name.
 - **Function declaration vs function expression**:
     - Function declaration are loaded before any code is executed and function expression loads when the interpreter reaches that line of code.
-    - Function declarations are hoisted on top of the other code, while function expression aren't hoisted.   
+    - Function declarations are hoisted on top of the other code, while function expression aren't hoisted. 
+- **Arguments** are array-like objects accessible inside functions. It contains the values of the arguments passed to that function. Arguments have a length property starting with zero. 
