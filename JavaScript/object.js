@@ -6,17 +6,27 @@ var fruits = {
 console.log(fruits);
 
 var sholay = {
-    name: 'sholay', // In JS, keys are strings. Putting Keys within quotes is optional
+    name: 'sholay', // In JS, keys are strings. Putting keys (name, cast) within quotes is optional
     cast: [
         'Amitabh', 'Hema', 'Dharmendra'
     ],
     'box Office Stats': { // In this case, quotes are mandatory because the key has blank spaces
         countries: 20,
-        collection: 1230000
+        collection: 12300000
     },
-    addToCollection: function {
-        
+    addToCollection: function(amount) { // addToCollection is a method whose value is a function
+        this['box Office Stats'].collection += amount; // 'this' is the context of the method
     }
 }
 
+// Accessing property names of object sholay
+console.log(sholay.name); 
+console.log(sholay.cast[0]);
+
+// Accessing property names with special characters or spaces
+console.log(sholay['box Office Stats']);
+console.log(sholay['box Office Stats'].collection); // We use dot operator because 'box Office Stats' is an object
+console.log(sholay['box Office Stats']['collection']); // Another approach
+
+sholay.addToCollection(350000);
 console.log(sholay);

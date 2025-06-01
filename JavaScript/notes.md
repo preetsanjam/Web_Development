@@ -87,4 +87,9 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         - Using `object.create()` method.
     - An object contains properties or key-value pairs. Each property has a name, aka key, and it has a corresponding value.
     - The value of an object key can also be a function. 
+    - Object properties can be accessed in three ways:
+        - Dot property accessor
+        - Square brackets property accessor
+        - Object destructing
+    - `this` keyword refers to an object that is executing the current piece of code in the current function.
   
