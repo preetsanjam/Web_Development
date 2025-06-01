@@ -79,9 +79,12 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - In JavaScript, **arrays** are a special type of object. The `typeof` operator returns "object" for arrays.
     - Arrays are resizable and can consist of a mix of different data types.
     - Arrays are zero-indexed.
-- An **object** is a standalone property, with properties and type. An object can be created in three ways:
-    - Using object literal syntax.
-    - Using the `new` keyword.
-    - Using `object.create()` method.
-- An object contains properties or key-value pairs. Each property has a name, aka key, and it has a corresponding value. 
+- **Object:** 
+    - An object is a standalone property, with properties and type. 
+    - It  can be created in three ways:
+        - Using object literal syntax.
+        - Using the `new` keyword.
+        - Using `object.create()` method.
+    - An object contains properties or key-value pairs. Each property has a name, aka key, and it has a corresponding value.
+    - The value of an object key can also be a function. 
   
