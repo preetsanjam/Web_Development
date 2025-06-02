@@ -25,7 +25,7 @@ console.log(sholay.cast[0]);
 
 // Accessing property names with special characters or spaces
 console.log(sholay['box Office Stats']);
-console.log(sholay['box Office Stats'].collection); // We use dot operator because 'box Office Stats' is an object
+console.log(sholay['box Office Stats'].collection); // We use the dot operator because 'box Office Stats' is an object
 console.log(sholay['box Office Stats']['collection']); // Another approach
 
 sholay.addToCollection(350000);
