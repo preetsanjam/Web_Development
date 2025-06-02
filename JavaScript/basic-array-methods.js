@@ -15,3 +15,9 @@ console.log(days);
 console.log(days.indexOf('Monday')); // Returns 3
 
 console.log(days.indexOf('Saturday')); // Not in index; Returns -1
+
+var numbers = [20, 60, 40, 65, 80, 8, 22, 30, 200, 2, 3500];
+numbers.sort(function(x, y) {
+    return x - y;
+});
+console.log(numbers);
