@@ -29,4 +29,19 @@ console.log(sholay['box Office Stats'].collection); // We use dot operator becau
 console.log(sholay['box Office Stats']['collection']); // Another approach
 
 sholay.addToCollection(350000);
+
+// Adding a property to object 'sholay'
+sholay.villan = 'Gabbar Singh';
+
+// Adding a method to object 'sholay'
+sholay.addToCast = function(newMember) {
+    this.cast[this.cast.length] = newMember; // this.cast.length adds the value at one beyond the last item in an array 
+}
+
+sholay.addToCast('Sanjeev Kumar');
+sholay.addToCast('Amjad Khan');
+
+// Deleting a property
+delete sholay['box Office Stats'];
+
 console.log(sholay);

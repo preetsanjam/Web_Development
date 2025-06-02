@@ -79,6 +79,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - In JavaScript, **arrays** are a special type of object. The `typeof` operator returns "object" for arrays.
     - Arrays are resizable and can consist of a mix of different data types.
     - Arrays are zero-indexed.
+    - The `length` property refers to the number of elements in an array. The value is an unsigned 32-bit integer and is always numerically greater than the highest index in that array.  
 - **Object:** 
     - An object is a standalone property, with properties and type. 
     - It  can be created in three ways:
@@ -92,4 +93,6 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         - Square brackets property accessor
         - Object destructing
     - `this` keyword refers to an object that is executing the current piece of code in the current function.
+    - A JavaScript method is a property of an object that holds a function definition. Methods are functions that are stored as object properties.
+    -   
   
