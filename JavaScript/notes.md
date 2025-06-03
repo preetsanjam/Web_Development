@@ -130,5 +130,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         <br>The method requires two arguments to remove elements: the index number for removal and the number of elements to remove. 
         <br>For adding elements, the actual elements to be added also have to be passed with the index and the number of elements to be added.  
     - `slice()` - The `slice()` method is used to create a copy of a portion of an array.
-- The `substring()` method extracts characters from two specified indices (as parameters) from a string and returns the substring. It does not change the original string. 
+- The `substring()` method extracts characters from two specified indices (as parameters) from a string and returns the substring. It does not change the original string.
+- The `replace()` method searches a string for a specified value, which can be a substring or a regular expression, and returns a new string with the matched value replaced. The method doesn't affect the original string. 
+- The `split()` method splits a string into an array of substrings based on the delimiter provided as an argument. It does not change the original string. 
   
