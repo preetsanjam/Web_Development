@@ -22,6 +22,7 @@ numbers.sort(function(x, y) {
 });
 console.log(numbers);
 
+// Array of objects 
 var projects = [
     {hours: 20, name: 'Project 1'},
     {hours: 60, name: 'Project 2'},
@@ -35,3 +36,14 @@ projects.sort(function(x, y) {
 });
 
 console.log(projects);
+
+// Push adds an element to the end of an array
+days.push('Saturday'); // Adds Saturday to the end of array
+days.push('Sunday');
+days.sort();
+console.log(days); // Returns Wednesday as the last element
+
+// Pop removes an element from the end of an array
+var removedDay = days.pop() // Removes Wednesday
+console.log(days); 
+console.log(removedDay);

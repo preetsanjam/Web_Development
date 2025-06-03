@@ -106,8 +106,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         It means x and y are equal, so their relative order stays the same.
         x = 30, y = 30 → 30 - 30 = 0
         Both values are equal, so no swap happens.
-        ```
-    - **Arrays of objects:** Sorting of elements in an array of objects can be done in the same way as for arrays but based on the values of one of the properties of the object. 
+        ``` 
 - **Object:** 
     - An object is a standalone property, with properties and type. 
     - It  can be created in three ways:
@@ -122,5 +121,6 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         - Object destructing
     - `this` keyword refers to an object that is executing the current piece of code in the current function.
     - A JavaScript method is a property of an object that holds a function definition. Methods are functions that are stored as object properties.
-    -   
+- **Arrays of objects:** Sorting of elements in an array of objects can be done in the same way as for arrays but based on the values of one of the properties of the object.
+- The `push()` method adds an element to the end of an array, whereas the `pop()` method removes an element from the end of an array.
   
