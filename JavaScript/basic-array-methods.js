@@ -51,5 +51,24 @@ console.log(removedDay);
 days.unshift('Holiday'); // Adds an element at beginning of an array 
 days.shift(); // Removes the first element
 var removed_day = days.shift() // Removes another element from the beginning of an array
-console.log(days);
 console.log(removed_day);
+console.log(days);
+
+days.push('Friday', 'Wednesday'); // push() method accepts multiple arguments
+console.log(days);
+
+// 1. splice() - Removes elements
+days.splice(2, 3); // Starting from index 2, remove three elements
+console.log(days);
+
+// 2. splice() - Adds elements
+days.splice(2, 0, 'Jan', 'Feb', 'Mar'); // Starting from index 2, adds elements without removing any
+console.log(days);
+
+// slice() creates a copy
+var slicedDays = days.slice(2, 6); // Starting from index 2, go up to index 6 but exclude index 6 
+console.log(slicedDays);
+
+// Remarks:
+// days.slice(2); This will start from index 2 and goes up to the end of the array
+// days.slice(0); This will make a copy of an array as it starts from index 0 and goes up to the end of an array
