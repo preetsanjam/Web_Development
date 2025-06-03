@@ -104,7 +104,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         return  x - y; 
         });
         
-        The sort() method compares each pair of elements in the array by calling your function with two arguments: x and y.
+        The sort() method compares each pair of elements in the array by calling the function with two arguments: x and y.
 
         What the return value means:
         
@@ -130,4 +130,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         <br>The method requires two arguments to remove elements: the index number for removal and the number of elements to remove. 
         <br>For adding elements, the actual elements to be added also have to be passed with the index and the number of elements to be added.  
     - `slice()` - The `slice()` method is used to create a copy of a portion of an array.
+- The `substring()` method extracts characters from two specified indices (as parameters) from a string and returns the substring. It does not change the original string. 
   
