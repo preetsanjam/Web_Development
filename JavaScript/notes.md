@@ -79,8 +79,24 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - In JavaScript, **arrays** are a special type of object. The `typeof` operator returns "object" for arrays.
     - Arrays are resizable and can consist of a mix of different data types.
     - Arrays are zero-indexed.
-    - The `length` property refers to the number of elements in an array. The value is an unsigned 32-bit integer and is always numerically greater than the highest index in that array.
-    - By default, the `sort()` method arranges elements after converting them into strings and sorts them lexicographically (alphabetically), which is not correct for numbers.
+    - The `length` property refers to the number of elements in an array. The value is an unsigned 32-bit integer and is always numerically greater than the highest index in that array. 
+- **Object:** 
+    - An object is a standalone property, with properties and type. 
+    - It  can be created in three ways:
+        - Using object literal syntax.
+        - Using the `new` keyword.
+        - Using `object.create()` method.
+    - An object contains properties or key-value pairs. Each property has a name, aka key, and it has a corresponding value.
+    - The value of an object key can also be a function. 
+    - Object properties can be accessed in three ways:
+        - Dot property accessor
+        - Square brackets property accessor
+        - Object destructing
+    - `this` keyword refers to an object that is executing the current piece of code in the current function.
+    - A JavaScript method is a property of an object that holds a function definition. Methods are functions that are stored as object properties.
+- **Arrays of objects:** Sorting of elements in an array of objects can be done in the same way as for arrays but based on the values of one of the properties of the object.
+- **Array methods:**
+    - `sort()` - By default, the `sort()` method arranges elements after converting them into strings and sorts them lexicographically (alphabetically), which is not correct for numbers.
     
         ```
         var numbers = [20, 60, 40, 65, 80, 8, 22, 30, 200, 2, 3500];
@@ -106,21 +122,8 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         It means x and y are equal, so their relative order stays the same.
         x = 30, y = 30 → 30 - 30 = 0
         Both values are equal, so no swap happens.
-        ``` 
-- **Object:** 
-    - An object is a standalone property, with properties and type. 
-    - It  can be created in three ways:
-        - Using object literal syntax.
-        - Using the `new` keyword.
-        - Using `object.create()` method.
-    - An object contains properties or key-value pairs. Each property has a name, aka key, and it has a corresponding value.
-    - The value of an object key can also be a function. 
-    - Object properties can be accessed in three ways:
-        - Dot property accessor
-        - Square brackets property accessor
-        - Object destructing
-    - `this` keyword refers to an object that is executing the current piece of code in the current function.
-    - A JavaScript method is a property of an object that holds a function definition. Methods are functions that are stored as object properties.
-- **Arrays of objects:** Sorting of elements in an array of objects can be done in the same way as for arrays but based on the values of one of the properties of the object.
-- The `push()` method adds an element to the end of an array, whereas the `pop()` method removes an element from the end of an array.
+        ```
+    - `push()` - The `push()` method adds an element to the end of an array, whereas the `pop()` method removes an element from the end of an array.
+    - `unshift()` - The `unshift()` method is used to add one or more elements at the beginning of an array.
+    - `shift()` - The `shift()` method removes the first beginning of an array. 
   

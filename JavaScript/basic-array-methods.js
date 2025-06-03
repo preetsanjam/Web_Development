@@ -47,3 +47,9 @@ console.log(days); // Returns Wednesday as the last element
 var removedDay = days.pop() // Removes Wednesday
 console.log(days); 
 console.log(removedDay);
+
+days.unshift('Holiday'); // Adds an element at beginning of an array 
+days.shift(); // Removes the first element
+var removed_day = days.shift() // Removes another element from the beginning of an array
+console.log(days);
+console.log(removed_day);
