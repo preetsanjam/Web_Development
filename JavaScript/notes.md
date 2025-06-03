@@ -107,6 +107,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
         x = 30, y = 30 → 30 - 30 = 0
         Both values are equal, so no swap happens.
         ```
+    - **Arrays of objects:** Sorting of elements in an array of objects can be done in the same way as for arrays but based on the values of one of the properties of the object. 
 - **Object:** 
     - An object is a standalone property, with properties and type. 
     - It  can be created in three ways:
