@@ -80,7 +80,29 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - Arrays are resizable and can consist of a mix of different data types.
     - Arrays are zero-indexed.
     - The `length` property refers to the number of elements in an array. The value is an unsigned 32-bit integer and is always numerically greater than the highest index in that array.
-    - By default, the `sort()` method arranges or sorts elements after converting them into strings. 
+    - By default, the `sort()` method arranges elements after converting them into strings and sorts them lexicographically (alphabetically), which is not correct for numbers.
+    ```var numbers = [20, 60, 40, 65, 80, 8, 22, 30, 200, 2, 3500];
+    numbers.sort(function(x, y) {
+    return  x - y; // Sorts in ascending order; y - x sorts in descending order
+    });
+    The sort() method compares each pair of elements in the array by calling your function with two arguments: x and y.
+
+    ✅ What the return value means:
+    
+    🟢 If the result is negative (x - y < 0)
+    ➡️ It means x should come before y in the sorted array.
+    x = 8, y = 20 → 8 - 20 = -12
+    ➡️ So, 8 will be placed before 20.
+
+    🔴 If the result is positive (x - y > 0)
+    ➡️ It means y should come before x in the sorted array.
+    x = 60, y = 40 → 60 - 40 = 20
+    ➡️ So, 40 will be placed before 60.
+
+    ⚪ If the result is zero (x - y === 0)
+    ➡️ It means x and y are equal, so their relative order stays the same.
+    x = 30, y = 30 → 30 - 30 = 0
+    ➡️ Both values are equal, so no swap happens.
 - **Object:** 
     - An object is a standalone property, with properties and type. 
     - It  can be created in three ways:
