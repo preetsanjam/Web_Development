@@ -1,4 +1,4 @@
-# Web_Development
+# Web Development
 This repository contains three folders:
   - **HTML**
   - **CSS**
