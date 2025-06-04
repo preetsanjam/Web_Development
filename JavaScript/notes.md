@@ -133,4 +133,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - The `substring()` method extracts characters from two specified indices (as parameters) from a string and returns the substring. It does not change the original string.
 - The `replace()` method searches a string for a specified value, which can be a substring or a regular expression, and returns a new string with the matched value replaced. The method doesn't affect the original string. 
 - The `split()` method splits a string into an array of substrings based on the delimiter provided as an argument. It does not change the original string. 
+- The `indexOf()` method returns the position of the first occurence of a value in a string, whereas the `lastIndexOf()` method returns the position of the last occurence of a specified value in a string.
   

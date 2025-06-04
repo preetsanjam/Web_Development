@@ -11,3 +11,10 @@ console.log(replacedString);
 var fruits = 'apples,bananas,oranges';
 var fruitArray = fruits.split(','); // split() method splits a string into an array of substrings based on the delimiter
 console.log(fruitArray);
+
+var firstIndex = quote.indexOf('great');
+var lastIndex = quote.lastIndexOf('great');
+var anotherIndex = quote.indexOf('greatest');
+console.log(firstIndex); // Returns the index of the first occurrence of the substring 'great'
+console.log(lastIndex); // Returns the index of the last occurrence of 'great'
+console.log(anotherIndex); // Not in index. Returns -1
