@@ -39,8 +39,10 @@ console.log(dayOfWeek);
 today.setFullYear(2024);
 today.setMonth(0); // Jan is 0
 today.setDate(1);
-today.setHours(2);
-today.setMinutes(3);
-today.setSeconds(4);
+// today.setHours(2);
+// today.setMinutes(3);
+// today.setSeconds(4);
 
 console.log(today);
+
+console.log(today.toTimeString()); // Returns only the time string

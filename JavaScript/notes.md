@@ -137,5 +137,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **Date object:**
     - A newly created Date class object stores the current date and time of the system the code has been run on.
     - The value of the date object can be manipulated by changing the time zones or by adding or substracting values to and from the date obtained.
-    - The date constructor can accept seven arguments: `Date(year, month, date, hour, minutes, seconds, milliseconds)`. 
+    - The date constructor can accept seven arguments: `Date(year, month, date, hour, minutes, seconds, milliseconds)`.
+    - **Getter methods** allow us to retrieve or access the values of an object’s properties.
+    - **Setter methods** allow us to set the required values of the properties of an object. This concept is also seen in Java programming.   
   
