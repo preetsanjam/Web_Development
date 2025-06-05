@@ -137,12 +137,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **Date object:**
     - A newly created Date class object stores the current date and time of the system the code has been run on.
     - The value of the date object can be manipulated by changing the time zones or by adding or substracting values to and from the date obtained.
-    - The date constructor can accept seven arguments:
-        1. Year
-        2. Month (zero-indexed)
-        3. Date
-        4. Hour
-        5. Minutes
-        6. Seconds
-        7. Milliseconds 
+    - The date constructor can accept seven arguments: `Date(year, month, date, hour, minutes, seconds, milliseconds)`. 
   
