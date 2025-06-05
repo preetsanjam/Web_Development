@@ -140,4 +140,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
     - The date constructor can accept seven arguments: `Date(year, month, date, hour, minutes, seconds, milliseconds)`.
     - **Getter methods** allow us to retrieve or access the values of an object’s properties.
     - **Setter methods** allow us to set the required values of the properties of an object. This concept is also seen in Java programming.   
+- The `Math.random()` method is a static method that returns a floating point number that's greater than or equal to 0 and less than 1. 
   
