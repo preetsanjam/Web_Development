@@ -143,4 +143,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **Math object:**
     - The `Math.random()` method is a static method that returns a floating point number that's greater than or equal to 0 and less than 1.
     -  `Math.min()` and `Math.max()` methods accept comma-separated values instead of arrays. Arrays can be split into their constituent values before using as inputs to `min()` and `max()` methods.
+    - There are several other methods provided by JavaScript Math class that helps us in reducing calculations, like `ceil()`, `pow()`, `round()`, `floor()`, `trunc()`, etc. It also provides us with properties like PI, LN2, LOG2, etc. 
   
