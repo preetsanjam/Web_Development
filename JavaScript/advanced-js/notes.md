@@ -21,6 +21,7 @@
     - The initial assignment `x = 1`; stays in place.
     - So, when you run `console.log(x)`; before the assignment, the variable exists but has the value `undefined`.
     - After assignment, `console.log(x)`; prints `1`.
+    
     Summary:
     - `var` declarations are hoisted, but their values are not.
     - `console.log(x)`; before `x = 1`; returns `undefined` because `x` exists but hasn’t been assigned yet.
