@@ -147,4 +147,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **`Number` class method:**
     - The `Number` class serves as a wrapper object for the primitive number data type. While JavaScript allows us to use numbers directly as primitives, the `Number` class provides additional functionality and methods when we need to treat numbers as objects
     - There are various `Number` class methods such as `parseInt()`, `parseFloat()`, `toFixed()`, `valueOf()`, etc., that simplify working with numbers in JavaScript. 
+    - `toFixed()` method returns a string with the number with a specified number of decimal values after the decimal point by rounding off the decimal value.
   
