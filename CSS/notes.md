@@ -40,8 +40,8 @@
     `}`      
 - One of the orders for pseudo class selectors is LVHA (link, visited, hover, anchor).
 - CSS Selectors have a concept of **structural pseudo-classes** to allow the selection of elements based on extra information that is available in the document tree which cannot be represented by any other simple selectors or combinators.  
-- The :nth-child() accepts expressions between those parantheses and is used to select elements depending on a simple given algebric expression. It has the ability to select even/odd elements, "every third", etc. 
-- The **n-th of type selector** enables selection of the n-th element in a set of same elements. 
+- The `:nth-child()` accepts expressions between those parentheses and is used to select elements depending on a simple given algebraic expression. It has the ability to select even/odd elements, "every third", etc. 
+- The **n-th of type selector** enables selection of the n-th element in a set of the same elements. 
 - Inline styles are the most important. They trump embedded and external styles. 
 - On an HTML page, there can be many paragraphs but there will be fewer elements with a given class. When a selector targets elements with a class, it is given more importance. Styles given through the class selector will be applied. **A class selector is more specific than a type selector. This concept is called specificity.**     
 - **Specificity values**

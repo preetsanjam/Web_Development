@@ -18,8 +18,8 @@
      - If we are in a folder and the destination/relative file is in the same folder, we can use the relative path. Absolute paths are used to refer to files in a completely separate folder. Relative path does not expose all folders on our system.
      - In order to move one level up for relative paths, we use the '../' operator.
 - **Links on the same page:** We can create links to sections on the same page using the id attribute value of the target element/section.
-- The **image tag** (`<img>`) is a standalone tag. It takes one mandatory attribute called **'src'**, which stores the path of the image (image source).
-- The **alt attribute** sets an alternative text which is displayed when an image cannot be rendered on the browsed screen. There can be several reasons for the image not rendering. For example, the path is incorrect or the internet is down. Another use case of alt attribute is for people with disabilities. Screen-reader softwares read out the text every time the mouse hovers over an image. In this context, alt attribute is the **web accessibility tool**. 
+- The **image tag** (`<img>`) is a standalone tag. It takes one mandatory attribute called **`src`**, which stores the path of the image (image source).
+- The `alt` attribute sets an alternative text which is displayed when an image cannot be rendered on the browsed screen. There can be several reasons for the image not rendering. For example, the path is incorrect or the internet is down. Another use case of the `alt` attribute is for people with disabilities. Screen-reader softwares read out the text every time the mouse hovers over an image. In this context, alt attribute is the **web accessibility tool**. 
 - The image tag must be included within the anchor tag to create a clickable image that can redirect users to another page or section on the same page. 
 - The **ul tag** is used for unordered lists. The unordered lists are used to display lists where order is not of importance. For example, shopping lists and recipe ingredients. 
 - **HTML is used to structure web pages (headings, paragraphs, title) whereas CSS is used to make web pages look good.**  
@@ -59,12 +59,10 @@
 - In HTML, the `<span>` tag is an inline container used when you want to style some particular text or any other content different from other elements. The elements wrapped in a `<span>` tag with a class attribute can be given a value for styling. 
 - **Default dimensions of a block-level element**: Width and height is only as much as the content within requires.
 - **ID attribute**: 
-    - It enables us to target exactly one tag in a cluster of tags on a webpage. This targetting is maybe for formatting (CSS) or functionality-based (JavaScript) purposes. **It is not a good practice to give the same ID to two elements.**
+    - It enables us to target exactly one tag in a cluster of tags on a webpage. This targeting is maybe for formatting (CSS) or functionality-based (JavaScript) purposes. **It is not a good practice to give the same ID to two elements.**
     - The hash or pound symbol (#) is used to access a particular id. 
 - **Class attribute**: 
     - It is used when we need to group a set of HTML elements into one for targeting them together for a particular formatting (CSS) or functionality (Javascript). 
     - The dot or period symbol (.) is used to target a particular class in HTML. 
     - An HTML element can belong to multiple classes.
-- The common ansector tag of all HTML tags is the HTML tag. 
-
-  
+- The common ancestor tag of all HTML tags is the HTML tag.  
