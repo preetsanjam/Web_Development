@@ -1,0 +1,1 @@
+- **Hoisting** is a mechanism where functions and variable declarations are moved to the top of their scope before code execution.
