@@ -52,14 +52,14 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - Operator precedence tells us which operation is performed first in an expression which has more than one operator with different precedence. The logical AND operator (&&) has higher precedence than the logical OR operator (||).  
 - The new operator creates an instance of a user-defined object type or of one of the built-in object types that have a constructor function.
 - **Associativity** is used when two or more operators with the same precedence are present in the same expression. It defines the order in which operations of the same precedence are performed. 
-- **Branching** tranfers control from the current statement to another statement in the program. It alters the execution sequence.
+- **Branching** transfers control from the current statement to another statement in the program. It alters the execution sequence.
 - The `for` loop iterates over elements a fixed number of times. It should be used if the number of iterations is known.
 - `while` vs `do while` loop:
     - `while` loop evaluates the condition first and then executes the loop.
     - `do while` executes the loop and then evaluates the condition.
 - **Switch statements**: The main aim of switch statements is to give an expression to evaluate and execute a number of different statements based on the value of the expression. If no match is found, a default condition will be used. 
     - The default switch case is not mandatory in the switch statement. However, it is recommended to add that in situations where none of the cases match.
-- **Strict mode** (`'use strict';`) removes few JavaScript errors and fixes mistakes that make it difficult for JavaScript engines to perform optimizations. One use case: In strict mode, we cannot create a variable without a `var` keyword.
+- **Strict mode** (`'use strict';`) removes a few JavaScript errors and fixes mistakes that make it difficult for JavaScript engines to perform optimizations. One use case: In strict mode, we cannot create a variable without a `var` keyword.
 - A **function declaration** gives the information to the JavaScript engine about the function's name, return type and parameters. When a function is declared, it can be used anytime inside a class or development scope whenever it's called/invoked.
 - A **function expression** is used to define a function inside any expression. It allows us to create an anonymous function that doesn't have any name.
 - **Function declaration vs function expression**:
@@ -136,7 +136,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - The `indexOf()` method returns the position of the first occurence of a value in a string, whereas the `lastIndexOf()` method returns the position of the last occurence of a specified value in a string.
 - **`Date` object:**
     - A newly created Date class object stores the current date and time of the system the code has been run on.
-    - The value of the date object can be manipulated by changing the time zones or by adding or substracting values to and from the date obtained.
+    - The value of the date object can be manipulated by changing the time zones or by adding or subtracting values to and from the date obtained.
     - The date constructor can accept seven arguments: `Date(year, month, date, hour, minutes, seconds, milliseconds)`.
     - **Getter methods** allow us to retrieve or access the values of an object’s properties.
     - **Setter methods** allow us to set the required values of the properties of an object. This concept is also seen in Java programming.   
