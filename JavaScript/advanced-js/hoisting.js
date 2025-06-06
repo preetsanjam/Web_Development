@@ -12,4 +12,8 @@ function foo() {
     console.log('foo is called');
 }
 
+bar(); // Returns an error because bar is more of a variable assignment
+var bar = function() {
+    console.log('bar is called');
+}
 
