@@ -18,3 +18,20 @@ console.log(wrappedNumber.toFixed(2)); // toFixed(2) formats it to 2 decimal pla
 // JavaScript automatically boxes the primitive into a Number object so that methods like toFixed() can be used
 // Example: 
 console.log(3.5678.toFixed(3));
+
+// NaN - Not a Number
+var x = 1 / 'hello';
+console.log(x);
+console.log(Number.NaN);
+console.log(NaN);
+
+// NaN cannot be compared with other values
+console.log(NaN === 1); // Returns false
+console.log(NaN === NaN); // Even this returns false
+
+console.log(1 / 'hello' === NaN); // Returns false
+// Remark: We cannot know whether or not 1 / 'hello' is a valid expression
+
+// Solution: isNaN() method
+console.log(isNaN(1 / 'hello'));
+console.log(Number.isNaN(1 / 'hello'));

@@ -3,14 +3,14 @@
 - JavaScript is a scripting language, which means it is loosely defined. 
 - A loosely typed language is a programming language where there is no need for variables to be defined. It is easier to debug and test your code using loosely typed languages.  
 - Compile time errors are detected by the compiler and occur when we violate the syntax rules. It indicates that we need to fix the error before compiling the code.
-- JavaScript is an interpreted language, not a compiled language. The browser picks up the Javascript code line by line. It is not compiled and translated to some other form.
+- JavaScript is an interpreted language, not a compiled language. The browser picks up the JavaScript code line by line. It is not compiled and translated to some other form.
 - **Main features of JavaScript:** 
     - JavaScript is interpreted line by line.
     - We can build the backend of an application using JavaScript.
     - JavaScript is the only language for writing scripts for the frontend of an application.
 - `console.log()` is a built-in JavaScript function used to print messages to the console (usually the browser’s developer tools or terminal). 
-    - `console` --> JavaScript object for accessing the console
-    - `.log()` --> Method that prints a message
+    - `console` - JavaScript object for accessing the console
+    - `.log()` - Method that prints a message
 - In JavaScript, a **primitive data type is data that is not an object and has no methods or properties**. A few primitive data types include number, string, boolean, NULL, etc.
 - A variable that is declared and not assigned a value is of type 'undefined'.
 - 'Undefined' is a data type by itself. It means a variable has been declared but has not been assigned a value.
@@ -147,5 +147,5 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **`Number` class method:**
     - The `Number` class serves as a wrapper object for the primitive number data type. While JavaScript allows us to use numbers directly as primitives, the `Number` class provides additional functionality and methods when we need to treat numbers as objects
     - There are various `Number` class methods such as `parseInt()`, `parseFloat()`, `toFixed()`, `valueOf()`, etc., that simplify working with numbers in JavaScript. 
-    - The `toFixed(n)` method formats a number using fixed-point notation. It returns a string representing the number with exactly `n` digits after the decimal point.
-
+    - The `toFixed(n)` method formats a number using fixed-point notation. It returns a string representing the number with exactly `n` digits after the decimal point. 
+    - The `isNan()` method in the `Number` class returns a boolean value. If the value provided as an argument is a number, it returns false, and if it is not a number, `isNan()` method returns true. The special feature of `NaN` is that it cannot be compared with other values, not even with itself. 
