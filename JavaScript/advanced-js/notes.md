@@ -43,3 +43,4 @@
         - Then `console.log(sum(12, 13))` is executed.
         - `sum(12, 13)` returns 25.
         - `console.log()` prints 25.
+- The window object refers to a window in the browser and is automatically created from the browser. It is not the JavaScript object. JavaScript objects are string, array, etc.  
