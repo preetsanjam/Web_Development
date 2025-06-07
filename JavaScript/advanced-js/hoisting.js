@@ -12,8 +12,13 @@ function foo() {
     console.log('foo is called');
 }
 
-bar(); // Returns an error because bar is more of a variable assignment
+// bar(); // Returns an error because bar is more of a variable assignment
 var bar = function() {
     console.log('bar is called');
+}
+
+console.log( sum( 12, 13 ) );
+function sum( x, y ) {
+    return x + y;
 }
 

@@ -4,6 +4,8 @@
     - Variable declarations using var are hoisted to the top of their scope, but their initial values are not hoisted.
     - Function declarations are also hoisted, and their definitions are hoisted too.
     - Before any line of code is executed in JS (before it enters any scope), it first checks for declarations (variable declarations or function declarations) and it creates a memory for the variables but it does not assign any value to those variables.
+
+        Example: 
         ```
         console.log(x); // Returns undefined
         var x = 1;
@@ -27,3 +29,17 @@
         - `console.log(x)` before `x = 1` returns `undefined` because `x` exists but hasn’t been assigned yet.
         - This is not an error, because the variable `x` is already in memory due to hoisting.
     - Hoisting is a default behavior of moving declarations to the top of the current scope and applies to variable and function declarations. Functions defined using an expression is not hoisted.
+
+        Example: 
+        ```
+        console.log( sum( 12, 13 ) );
+        
+        function sum( x, y ) {
+            return x + y;
+        }
+        ```
+        Execution flow:
+        - The function `sum(x, y)` is hoisted — its entire definition is moved to the top of the code.
+        - Then `console.log(sum(12, 13))` is executed.
+        - `sum(12, 13)` returns 25.
+        - `console.log()` prints 25.
