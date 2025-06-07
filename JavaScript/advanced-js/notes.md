@@ -17,12 +17,13 @@
         console.log(x);   // Outputs: 1
         ```
         What Happens?
-            - `var x` is hoisted to the top (only the declaration).
-            - The initial assignment `x = 1` stays in place.
-            - So, when you run `console.log(x)` before the assignment, the variable exists but has the value `undefined`.
-            - After assignment, `console.log(x)` prints `1`.
-        <br /> Summary:
-            - `var` declarations are hoisted, but their values are not.
-            - `console.log(x)` before `x = 1` returns `undefined` because `x` exists but hasn’t been assigned yet.
-            - This is not an error, because the variable `x` is already in memory due to hoisting.
+        - `var x` is hoisted to the top (only the declaration).
+        - The initial assignment `x = 1` stays in place.
+        - So, when you run `console.log(x)` before the assignment, the variable exists but has the value `undefined`.
+        - After assignment, `console.log(x)` prints `1`.
+        
+        Summary:
+        - `var` declarations are hoisted, but their values are not.
+        - `console.log(x)` before `x = 1` returns `undefined` because `x` exists but hasn’t been assigned yet.
+        - This is not an error, because the variable `x` is already in memory due to hoisting.
     - Hoisting is a default behavior of moving declarations to the top of the current scope and applies to variable and function declarations. Functions defined using an expression is not hoisted.
