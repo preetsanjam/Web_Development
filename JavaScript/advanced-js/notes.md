@@ -43,4 +43,29 @@
         - Then `console.log(sum(12, 13))` is executed.
         - `sum(12, 13)` returns 25.
         - `console.log()` prints 25.
-- The window object refers to a window in the browser and is automatically created from the browser. It is not the JavaScript object. JavaScript objects are string, array, etc.  
+         
+- **Function call context:**
+    - `this` keyword refers to an object that is executing the current piece of code in the current function.
+
+        In a method (object function):
+        ````
+        const person = {
+            name: "Sanjam",
+            greet: function() {
+                console.log(this.name);
+            }
+        };
+        
+        person.greet(); // 'this' refers to the 'person' object → Output: Sanjam
+        ````
+
+        In a regular function (non-method):
+        ```
+        function show() {
+            console.log(this);
+        }
+
+        show(); // In non-strict mode, 'this' refers to the global object (window in browsers)
+                // In strict mode ('use strict'), 'this' is undefined
+        ```
+    - The `window` object refers to a window in the browser and is automatically created from the browser. It is not the JavaScript object. JavaScript objects are string, array, etc.

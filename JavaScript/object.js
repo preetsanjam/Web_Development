@@ -10,7 +10,7 @@ var sholay = {
     cast: [
         'Amitabh', 'Hema', 'Dharmendra'
     ],
-    'box Office Stats': { // In this case, quotes are mandatory because the key has blank spaces
+    'box Office Stats': { // Quotes are mandatory because the key has blank spaces
         countries: 20,
         collection: 12300000
     },
