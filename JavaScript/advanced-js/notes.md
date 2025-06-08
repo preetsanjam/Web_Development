@@ -71,14 +71,16 @@
     - The `window` object refers to a window in the browser and is automatically created from the browser. It is not the JavaScript object. JavaScript objects are string, array, etc.
 - **Functions:** 
     - Functions are plain objects in JavaScript. But they are special objects in the sense that they can be called and the statements that are part of their body can be executed.
-    - Functions are **first-class citizens**. They have similar functionality as objects such as they can be assigned to variables, passed in as arguments, or returned from a function.
+    - Functions are **first-class citizens**. They have similar functionality as objects such as they can be assigned to variables, passed as arguments, or returned from a function.
     - What does "functions are first-class citizens" mean?
     
         It means:
 
-        - Functions can be assigned to variables
-        - Functions can be passed as arguments to other functions
-        - Functions can be returned from other functions
-        - Functions can be stored in data structures
+        - Functions can be assigned to variables.
+        - Functions can be passed as arguments to other functions.
+        - Functions can be returned from other functions.
+        - Functions can be stored in data structures.
 
         In short, functions are treated like any other value or object. 
+    - The `call()` method is a predefined method in JavaScript. It can be used to invoke/call a method with an owner object as an argument/parameter. Using the `call()` method, an object can use a method that belongs to another object. 
+    - The `instanceof` operator is used to check the type of an object at runtime. It returns a boolean value true if the object is an instance of a specific class and false otherwise.  
