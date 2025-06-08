@@ -1,7 +1,7 @@
-function foo(callback) {
+function foo(callback) { // foo expects another function as an argument
     var x = 10, y = 20;
     var z = x + y;
-    callback();
+    callback();  // callback is nothing but function bar
 
     function retFn() {
         console.log('retFn is called');
@@ -14,8 +14,8 @@ function bar() {
     console.log('bar is called')
 };
 
-var resultFn = foo(bar);
-resultFn();
+var resultFn = foo(bar); // foo(bar) means passing function bar to function foo
+resultFn(); // Calling the function returned from foo
 
 
 function f(g) {
