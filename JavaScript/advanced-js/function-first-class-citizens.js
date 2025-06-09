@@ -36,6 +36,18 @@ greetings(name);
 
 
 // Example 3
+// Returning a function from another function
+var greeting = function() {
+    return function () {
+        console.log('Welcome to JavaScript');
+    }
+};
+
+var func = greeting();
+func();
+
+
+// Example 4
 function f(g) {
     console.log(g(12, 12));
 }

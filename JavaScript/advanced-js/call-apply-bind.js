@@ -15,13 +15,14 @@ console.log(greet instanceof Object); // If true, it means function greet is an 
 // Because functions are objects, these can have properties and methods
 // Recall: Objects have properties and methods
 
-// greet function with property 'x'  
+// property 'x' is assigned to function greet()   
 greet.x = 100;
 console.log(greet.x);
 
-// greet function with a method 
+// method is assigned to function greet()
 greet.foo = function() {
     console.log('greet.foo is called');
 };
 
 greet.foo();
+
