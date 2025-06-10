@@ -82,5 +82,12 @@
         - Functions can be stored in data structures.
 
         In short, functions are treated like any other value or object. 
-    - The `call()` method is a predefined method in JavaScript. It can be used to invoke/call a method with an owner object as an argument/parameter. Using the `call()` method, an object can use a method that belongs to another object. 
     - The `instanceof` operator is used to check the type of an object at runtime. It returns a boolean value true if the object is an instance of a specific class and false otherwise.  
+    - Three important methods in functions:
+        1. `call()` - The `call()` method is a predefined method in JavaScript. It can be used to invoke/call a method with an owner object as an argument/parameter. Using the `call()` method, an object can use a method that belongs to another object. 
+
+            In other words, the `call()` method allows us to call a function with a specified  `this` value and arguments provided individually.
+        
+            The syntax of `call()` method is to pass in the context and the list of arguments that are passed just like the calling function.
+        2. `apply()` - The `apply()` method calls the defined function with a given `this` value and arguments provided as an array or an array-like object.
+         

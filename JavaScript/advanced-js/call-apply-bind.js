@@ -26,3 +26,17 @@ greet.foo = function() {
 
 greet.foo();
 
+
+// Three important methods of functions
+// 1. call() 
+// call() method changes the context of the function
+
+// 'hello' is the new context of greet() function
+// 'Good evening' and 'Mary' are the arguments
+greet.call('hello', 'Good evening', 'Mary'); 
+
+// 2. apply()
+// Behaves just like call()
+// The only difference being that arguments are provided in an array  
+
+
