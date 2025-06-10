@@ -143,6 +143,8 @@
             …will throw a TypeError or ignore the extra argument depending on the JavaScript engine.
         
         3. `bind()` - The `bind()` method allows us to create a new function from an existing function, change the new function's context and provide any arguments you want the new function to be called with.
+- JavaScript is also known as a **prototype-based language**, meaning object methods and properties can be shared through generalized objects that have the capability to be cloned and extended.
+- The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.   
 
 
 

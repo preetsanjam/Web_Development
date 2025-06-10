@@ -57,9 +57,10 @@ var greetHola = greet.bind(null, 'Hola'); // We bind the first argument 'message
 greetHola('David');
 greetHola('Monica');
 
+// Another example of bind() method
 function sum(a, b) {
     console.log( this );
-    console.log(a + b);
+    //console.log(a + b);
 }
 
 var boundSum = sum.bind(1, 2, 3);
