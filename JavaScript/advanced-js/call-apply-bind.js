@@ -1,6 +1,6 @@
 function greet(greeting, name) {
     console.log(greeting + ' ' + name + '!')
-    console.log('this is:', this);
+    // console.log('this is:', this);
 };
 
 greet('Good Morning', 'John');
@@ -46,3 +46,21 @@ greet.apply('hello', args);
 // With null, the context does not change
 // The context is the same old global context
 greet.apply(null, ['Hi', 'Sanjam']); 
+
+// 3. bind()
+
+// greetBound() is the new function which has a fixed context 'world'
+var greetBound = greet.bind('world');
+greetBound('Hello', 'Ram');
+
+var greetHola = greet.bind(null, 'Hola'); // We bind the first argument 'message' to be always 'Hola'
+greetHola('David');
+greetHola('Monica');
+
+function sum(a, b) {
+    console.log( this );
+    console.log(a + b);
+}
+
+var boundSum = sum.bind(1, 2, 3);
+boundSum();

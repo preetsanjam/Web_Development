@@ -141,6 +141,8 @@
             sum.apply([1, 2], [3, 4], [5, 6])
             ```
             …will throw a TypeError or ignore the extra argument depending on the JavaScript engine.
+        
+        3. `bind()` - The `bind()` method allows us to create a new function from an existing function, change the new function's context and provide any arguments you want the new function to be called with.
 
 
 
