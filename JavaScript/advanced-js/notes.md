@@ -89,5 +89,60 @@
             In other words, the `call()` method allows us to call a function with a specified  `this` value and arguments provided individually.
         
             The syntax of `call()` method is to pass in the context and the list of arguments that are passed just like the calling function.
+
+            **Example:**
+            ```
+            function sum( x, y ) {
+                return x + y;
+            };
+            
+            console.log( sum.call( 1, 2 ) ); // Returns `undefined`
+            ```
+            `sum.call(1, 2);` is equivalent to `sum(2);` because `.call(thisArg, arg1, arg2, ...)` calls the function with:
+            
+            - `thisArg = 1` (but unused in `sum`)
+            - `arg1 = 2` (becomes `x`)
+            - `arg2 = undefined` (because you only passed one argument) 
+
+            So the function receives:
+            ```
+            x = 2
+            y = undefined
+            ```
+
+            And
+            ```
+            2 + undefined = NaN
+            ```
+
         2. `apply()` - The `apply()` method calls the defined function with a given `this` value and arguments provided as an array or an array-like object.
+
+            **Example:**
+            ```
+            function sum() {
+                for (var i = 0, result = 0; i < arguments.length; i++) {
+                result = result + arguments[i];
+                }
+                return result;
+            }
+
+            console.log( sum.apply(  [ 1, 2 ], [ 3, 4 ],[ 5, 6 ] ) ); // Returns 7
+            ```
+            `.apply()` accepts only two arguments:
+            ```
+            func.apply(thisArg, argumentArray)
+            ```
+               
+            - `thisArg`: the value to use as `this` inside the function (`[1, 2]` in our case)
+            - `argumentArray`: an array of arguments to pass to the function (`[3, 4]` is valid)
+
+            This line:
+            ```
+            sum.apply([1, 2], [3, 4], [5, 6])
+            ```
+            …will throw a TypeError or ignore the extra argument depending on the JavaScript engine.
+
+
+
+            
          
