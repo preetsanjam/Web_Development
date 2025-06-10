@@ -65,7 +65,7 @@ Node.js is an open-source, cross-platform JavaScript framework for backend devel
 - **Function declaration vs function expression**:
     - Function declarations are loaded before any code is executed and function expression loads when the interpreter reaches that line of code.
     - Function declarations are hoisted on top of the other code, while function expressions aren't hoisted. 
-- **Arguments** are array-like objects accessible inside functions. It contains the values of the arguments passed to that function. Arguments have a length property starting with zero.
+- **Arguments** are array-like objects accessible inside functions. It contains the values of the arguments passed to that function. Arguments have a `length` property starting with zero.
 - A function that does not have a name associated with it is called an **anonymous function**. To define a function, we use the keyword `function` before the function name. 
 - To pass a function as an argument to other functions, an anonymous function can be used. One of the use cases of an anonymous function is that it prevents the use of global variables.
 - Minimizing the use of global variables is recommended as the excess use of global variables will lead to high coupling in different portions of a program, increasing program complexity and reducing the chances of software defects.

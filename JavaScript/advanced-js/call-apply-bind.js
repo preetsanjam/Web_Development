@@ -1,5 +1,6 @@
 function greet(greeting, name) {
     console.log(greeting + ' ' + name + '!')
+    console.log('this is:', this);
 };
 
 greet('Good Morning', 'John');
@@ -39,4 +40,9 @@ greet.call('hello', 'Good evening', 'Mary');
 // Behaves just like call()
 // The only difference being that arguments are provided in an array  
 
+var args = ['Good evening', 'Mary'];
+greet.apply('hello', args);
 
+// With null, the context does not change
+// The context is the same old global context
+greet.apply(null, ['Hi', 'Sanjam']); 
