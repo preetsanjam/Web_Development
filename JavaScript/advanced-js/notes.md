@@ -144,7 +144,11 @@
         
         3. `bind()` - The `bind()` method allows us to create a new function from an existing function, change the new function's context and provide any arguments you want the new function to be called with.
 - JavaScript is also known as a **prototype-based language**, meaning object methods and properties can be shared through generalized objects that have the capability to be cloned and extended.
-- The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.   
+- The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.  
+- The `Object.getPrototypeOf()` is a static method that returns the prototype i.e. the value of the internal [[Prototype]] property of that particular object.  
+- In JavaScript, `__proto__` is a method to inherit properties from an object. It is a property of `Object.prototype` which is an accessor property that reveals the [[Prototype]] of the object through which it is accessed.
+- The `Object.setPrototypeOf()` method sets the prototype that is internal [[Prototype]] property of a particular object to another object or null.
+- All objects inherit methods and properties from a prototype.  
 
 
 
