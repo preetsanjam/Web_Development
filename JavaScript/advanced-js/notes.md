@@ -144,11 +144,15 @@
         
         3. `bind()` - The `bind()` method allows us to create a new function from an existing function, change the new function's context and provide any arguments you want the new function to be called with.
 - JavaScript is also known as a **prototype-based language**, meaning object methods and properties can be shared through generalized objects that have the capability to be cloned and extended.
-- The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.  
-- The `Object.getPrototypeOf()` is a static method that returns the prototype i.e. the value of the internal [[Prototype]] property of that particular object.  
-- In JavaScript, `__proto__` is a method to inherit properties from an object. It is a property of `Object.prototype` which is an accessor property that reveals the [[Prototype]] of the object through which it is accessed.
-- The `Object.setPrototypeOf()` method sets the prototype that is internal [[Prototype]] property of a particular object to another object or null.
-- All objects inherit methods and properties from a prototype.  
+- **Object prototype:**
+    - The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.  
+    - The `Object.getPrototypeOf()` is a static method that returns the prototype i.e. the value of the internal [[Prototype]] property of that particular object.  
+    - In JavaScript, `__proto__` is a method to inherit properties from an object. It is a property of `Object.prototype` which is an accessor property that reveals the [[Prototype]] of the object through which it is accessed.
+    - The `Object.setPrototypeOf()` method sets the prototype that is internal [[Prototype]] property of a particular object to another object or null.
+    - In JavaScript, all objects inherit methods and properties from a prototype.
+    - Objects inherit from other objects.  
+    - Prototype inheritance is the linking of prototypes of a parent object to a child object to share and utilize the properties of the parent class using the child class.
+    - Every object has a built-in property called its prototype. The prototype itself is an object and has its own prototype called a **prototype chain**. The prototype chain ends when we reach a prototype that has null for its own prototype.  
 
 
 
