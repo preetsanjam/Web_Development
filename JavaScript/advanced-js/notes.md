@@ -164,7 +164,7 @@
     - **Constructor:**
         - A **constructor** is a special function that helps create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the `new` keyword. 
         - The main goal of a constructor is to create a new object and set values for any current object properties. 
-        - A `new` keyword is used to create an instance of an object that has a constructor function. When the constructor function with a `new` operator is called, a new empty object is created.
+        - **A `new` keyword is used to create an instance of an object** that has a constructor function. When the constructor function with a `new` operator is called, a new empty object is created.
         - When we call any function with `new` operator, it creates three functions
             
             1. An empty object is created. 

@@ -7,11 +7,14 @@
 
 function Person(name, age) {
     this.name = name, // The object has two properties: name and age 
-    this.age = age,
-    this.celebrateBirthday = function() {
-        this.age++;
-    };
+    this.age = age
 }
+    // One of the properties of a function is the prototype property
+    // Common prototype shared between John and Mary has a method called 'celebrateBirthday'
+    // Both john and mary will be able to invoke it   
+    Person.prototype.celebrateBirthday = function() { 
+        this.age++;
+};
 
 // john = {
 //     name: 'John',
@@ -37,3 +40,5 @@ var mary = new Person('Mary', 22);
 mary.celebrateBirthday();
 console.log(mary);
 
+console.log(john.__proto__ === Person.prototype);
+console.log(mary.__proto__ === Person.prototype);
