@@ -25,3 +25,5 @@ var scores = [
 scores.forEach(function(x) {
     console.log(x)
 });
+
+// filter 

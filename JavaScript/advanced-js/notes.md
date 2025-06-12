@@ -170,7 +170,8 @@
             1. An empty object is created. 
             2. The newly created object is passed as a call context.
             3. The newly created object is returned. In other words, it returns the context.
-        - There are two types of constructors: **built-in constructors** such as array and object, and **custom constructors** which specify properties and methods for your our own type of object.
+        - There are two types of constructors: **built-in constructors** such as array and object, and **custom constructors** which specify properties and methods for our own type of object.
+- The `filter()` method returns a new array which is a subset of the array it is called on. It does so only if the condition in the function defined in the filter method is satisfied.  
 
 
 
