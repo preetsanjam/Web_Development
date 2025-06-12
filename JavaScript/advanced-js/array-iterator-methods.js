@@ -1,6 +1,6 @@
 // Number of items an iterator function is called is equal to the number of items in an array
 
-// forEach()
+// forEach() iterator
 
 // Array of objects
 var days = [
@@ -26,7 +26,7 @@ scores.forEach(function(x) {
     console.log(x)
 });
 
-// filter 
+// filter() iterator  
 // It is supposed to return true or false
 
 var resultDays = days.filter(function(item) {
@@ -37,3 +37,23 @@ var resultDays = days.filter(function(item) {
 });
 
 console.log(resultDays);
+
+
+// map() iterator
+
+// Return square of numbers
+var numbers = [1, 2, 3, 4, 5];
+
+var resultArray = numbers.map(function(item) {
+    return item * item;
+});
+
+console.log(resultArray);
+
+// Return hours from days array
+var returnHours = days.map(function(i) {
+     return i.hours
+});
+
+console.log(returnHours);
+
