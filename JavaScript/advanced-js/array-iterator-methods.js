@@ -27,3 +27,11 @@ scores.forEach(function(x) {
 });
 
 // filter 
+// It is supposed to return true or false
+
+var resultDays = days.filter(function(item) {
+    // return true; Returns an array with all items
+    // return false; Returns an empty array 
+});
+
+console.log(resultDays);

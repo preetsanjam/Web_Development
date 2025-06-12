@@ -173,6 +173,8 @@
         - There are two types of constructors: **built-in constructors** such as array and object, and **custom constructors** which specify properties and methods for our own type of object.
 - The `filter()` method returns a new array which is a subset of the array it is called on. It does so only if the condition in the function defined in the filter method is satisfied.  
 
+If a function returns `true` for any particular iteration, that iteration's item is returned in the resulting array. If a function returns `false`, that iteration's item is not returned in the resulting array.
+
 
 
 
