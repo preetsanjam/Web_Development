@@ -31,7 +31,9 @@ scores.forEach(function(x) {
 
 var resultDays = days.filter(function(item) {
     // return true; Returns an array with all items
-    // return false; Returns an empty array 
+    // return false; Returns an empty array
+    return item.hours >= 8; // Returns true for 'Monday' and 'Wednesday'
+                            // Hence, both items are picked in the interation 
 });
 
 console.log(resultDays);
