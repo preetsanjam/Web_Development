@@ -174,8 +174,12 @@
 - The `filter()` method returns a new array which is a subset of the array it is called on. It does so only if the condition in the function defined in the filter method is satisfied.  
 
     The `filter()` method is supposed to return true or false. If a function returns `true` for any particular iteration, that iteration's item is returned in the resulting array. If a function returns `false`, that iteration's item is not returned in the resulting array.
-
-
+- **XML** - Extensible Markup Language is a W3C recommendation designed to hold data and not to display data. It is a markup language that specifies a set of rules for encoding data in a format that is both human and machine-readable.
+- **JSON** 
+    - JavaScript Object Notation (JSON) is language-independent, lightweight data-interchange format. It is easy to understand and was originally created to carry the structured data that could be used in JavaScript.
+    - JSON is used to transmit data between a server and a client.
+    - Despite its name, it’s not limited to JavaScript—it’s supported by most programming languages.
+    - It's based on key-value pairs and supports arrays and nested objects.
 
 
             
