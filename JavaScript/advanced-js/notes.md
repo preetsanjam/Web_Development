@@ -143,6 +143,14 @@
             …will throw a TypeError or ignore the extra argument depending on the JavaScript engine.
         
         3. `bind()` - The `bind()` method allows us to create a new function from an existing function, change the new function's context and provide any arguments you want the new function to be called with.
+
+            ---
+            NOTE:
+            
+            The `call()`, `bind()` and `apply()` methods are the functions that help us change the context of the `this` keyword that is present inside the invoking function. 
+
+            ---
+
 - JavaScript is also known as a **prototype-based language**, meaning object methods and properties can be shared through generalized objects that have the capability to be cloned and extended.
 - **Object prototype:**
     - The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.  
@@ -152,7 +160,18 @@
     - In JavaScript, all objects inherit methods and properties from a prototype.
     - Objects inherit from other objects.  
     - Prototype inheritance is the linking of prototypes of a parent object to a child object to share and utilize the properties of the parent class using the child class.
-    - Every object has a built-in property called its prototype. The prototype itself is an object and has its own prototype called a **prototype chain**. The prototype chain ends when we reach a prototype that has null for its own prototype.  
+    - Every object has a built-in property called its prototype. The prototype itself is an object and has its own prototype called a **prototype chain**. The prototype chain ends when we reach a prototype that has null for its own prototype. 
+    - **Constructor:**
+        - A **constructor** is a special function that helps create and initialize an object instance of a class. In JavaScript, a constructor gets called when an object is created using the `new` keyword. 
+        - The main goal of a constructor is to create a new object and set values for any current object properties. 
+        - A `new` keyword is used to create an instance of an object that has a constructor function. When the constructor function with a `new` operator is called, a new empty object is created.
+        - When we call any function with `new` operator, it creates three functions
+            
+            1. An empty object is created. 
+            2. The newly created object is passed as a call context.
+            3. The newly created object is returned. In other words, it returns the context.
+        - There are two types of constructors: **built-in constructors** such as array and object, and **custom constructors** which specify properties and methods for your our own type of object.
+
 
 
 
