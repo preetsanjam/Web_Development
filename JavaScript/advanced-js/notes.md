@@ -180,6 +180,14 @@
     - JSON is used to transmit data between a server and a client.
     - Despite its name, it’s not limited to JavaScript—it’s supported by most programming languages.
     - It's based on key-value pairs and supports arrays and nested objects.
+    - The `JSON.parse()` method is used to parse a JSON string that is written in JSON format and returns a JavaScript object. 
+    
+        Syntax:
+        ```
+        JSON.parse(string, function)
+        ```
+    - The array `push` method is used to add one or more new values at the end of an array, i.e., it appends values to the end of the array and alters the original array length.
+    - When transferring data to a web server, the data has to be a string. We use a method `JSON.stringify()` that converts JavaScript objects into strings.  
 
 
             
