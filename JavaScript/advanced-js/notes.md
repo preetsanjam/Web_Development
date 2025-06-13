@@ -200,7 +200,20 @@
     - The `catch{}` block handles the error of the code by executing the statements of the code written within it. This block is executed only when any error-prone code needs to be handled in the `try` block else the `catch` block is skipped.   
     - JavaScript has a built-in `error.message` object that gives error information when an error occurs. The message property of the error object provides a human-readable string that gives details about the error or exception that occured.
     - The `catch` block contains either the built-in handler or the user-defined exception handler.  
-    - The `finally` block statements are executed after the execution of `try` and `catch` statements. It defines code statements that run regardless of the result.   
+    - The `finally` block statements are executed after the execution of `try` and `catch` statements. It defines code statements that run regardless of the result.
+    - JavaScript permits users to create their own customized errors using a `throw` statement. The error can be a string, number, boolean or object.      
+
+        Syntax:
+        ```
+        throw expression; // expression defines the type and value of the exception
+        ```
+    - Custom errors can be created using `throw` with `try` and `catch` blocks.
+    - JavaScript has a main class called `Error` that consists of properties such as name, message, filename and methods. 
+
+        Syntax:
+        ```
+        new Error(msg, filename, line no);
+        ```
 
 
             
