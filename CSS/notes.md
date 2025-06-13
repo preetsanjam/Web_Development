@@ -32,12 +32,13 @@
 - Pseudo class selectors are CSS selectors that help in styling the element based on state changes. The common pseudo classes include :link, :active, :visited, :hover, :first-child and :nth-child.
 - Pseudo classes are CSS selectors with a colon preceding them. They specify a special state of an element. 
 - In CSS, the universal selector denoted by * is used to match all the HTML elements on the web page. 
-    Syntax: <br>
-    `* {`
-    <br>
-        `property: value;`
-    <br>
-    `}`      
+    
+    Syntax: 
+    ```
+    * {
+        property: value;
+    }
+    ```      
 - One of the orders for pseudo class selectors is LVHA (link, visited, hover, anchor).
 - CSS Selectors have a concept of **structural pseudo-classes** to allow the selection of elements based on extra information that is available in the document tree which cannot be represented by any other simple selectors or combinators.  
 - The `:nth-child()` accepts expressions between those parentheses and is used to select elements depending on a simple given algebraic expression. It has the ability to select even/odd elements, "every third", etc. 

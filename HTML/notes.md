@@ -23,7 +23,7 @@
 - The image tag must be included within the anchor tag to create a clickable image that can redirect users to another page or section on the same page. 
 - The **ul tag** is used for unordered lists. The unordered lists are used to display lists where order is not of importance. For example, shopping lists and recipe ingredients. 
 - **HTML is used to structure web pages (headings, paragraphs, title) whereas CSS is used to make web pages look good.**  
-- Ordered lists (ol tag) are used when the order of items is important. 
+- Ordered lists (`<ol>` tag) are used when the order of items is important. 
 - The table tag is a container tag which works in coordination with the following container tags:
     - `<tr>` - Table row
     - `<th>` - Table header
