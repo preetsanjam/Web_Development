@@ -194,10 +194,13 @@
     - The strict mode can be executed in two ways:  
         - globally by adding the string `use strict` directive as the first statement in the file.
         - locally by adding the string `use strict` directive as the first statement inside a function.    
-- A **try...catch** is a frequently used statement in different programming languages. It is used to handle error-prone portion of the code. Firstly, it tests the code for all possible errors it may have. Secondly, it implements actions to handle those errors (if any).  
-in `try{}` block, the code that needs possible error-testing is placed. If an error occurs, it passes to the `catch{}` block to take appropriate actions to handle the error, else it executes the code written in the `try` block.
-- The `catch{}` block handles the error of the code by executing the statements of the code written within it. This block is executed only when any error-prone code needs to be handled in the `try` block else the `catch` block is skipped.   
-- JavaScript has a built-in `error.message` object that gives error information when an error occurs. The message property of the error object provides a human-readable string that gives details about the error or exception that occured.   
+- **Exception handling:**
+    - A **try...catch** is a frequently used statement in different programming languages. It is used to handle error-prone portion of the code. Firstly, it tests the code for all possible errors it may have. Secondly, it implements actions to handle those errors (if any).  
+    in `try{}` block, the code that needs possible error-testing is placed. If an error occurs, it passes to the `catch{}` block to take appropriate actions to handle the error, else it executes the code written in the `try` block.
+    - The `catch{}` block handles the error of the code by executing the statements of the code written within it. This block is executed only when any error-prone code needs to be handled in the `try` block else the `catch` block is skipped.   
+    - JavaScript has a built-in `error.message` object that gives error information when an error occurs. The message property of the error object provides a human-readable string that gives details about the error or exception that occured.
+    - The `catch` block contains either the built-in handler or the user-defined exception handler.  
+    - The `finally` block statements are executed after the execution of `try` and `catch` statements. It defines code statements that run regardless of the result.   
 
 
             
