@@ -192,8 +192,8 @@
     - Strict mode removes a few JavaScript silent errors and fixes faults that make it hard for JavaScript engines to carry out optimizations.
     - In JavaScript, the strict mode was introduced in ECMAScript 5. It implements stricter parsing and error handling on the program code at runtime. It also helps write cleaner code and catch errors and bugs that may go unnoticed.
     - The strict mode can be executed in two ways:  
-        - globally by adding the string `use strict` directive as the first statement in the file.
-        - locally by adding the string `use strict` directive as the first statement inside a function.    
+        - globally by adding the string `'use strict'` directive as the first statement in the file.
+        - locally by adding the string `'use strict'` directive as the first statement inside a function.    
 - **Exception handling:**
     - A **try...catch** is a frequently used statement in different programming languages. It is used to handle error-prone portion of the code. Firstly, it tests the code for all possible errors it may have. Secondly, it implements actions to handle those errors (if any).  
     in `try{}` block, the code that needs possible error-testing is placed. If an error occurs, it passes to the `catch{}` block to take appropriate actions to handle the error, else it executes the code written in the `try` block.
