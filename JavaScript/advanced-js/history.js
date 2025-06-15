@@ -7,4 +7,3 @@ history.back();
 history.forward();
 history.go(-2); // Going 2 pages backwards
 
-history.pushState()

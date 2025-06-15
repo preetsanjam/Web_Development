@@ -235,6 +235,6 @@
         
         The **`prompt` dialog box** is used to take input from the user. It contains a textbox and has a button for accepting the input entered by the user. 
 - The **`history` object** is a property of the `window` object that contains the URLs visited by the user. It has three main methods: `back()`, `forward()` and `go()`.
-
+- The `navigator` object is a property of the `window` object that contains information about the browser. It has various propeties such as `appCodeName`, `cookieEnabled`, `geolocation`, `userAgent` etc. 
             
          
