@@ -9,3 +9,10 @@ alert('This is for your information');
 console.log('after alert');
 
 // confirm() dialog
+// It is also a blocking method
+var result = confirm('Do you really want to exit the website?')
+console.log(result);
+
+// prompt() mehtod
+var result = prompt('What is your favorite city?', 'Chandigarh'); // Second argument is the default value
+console.log(result);
