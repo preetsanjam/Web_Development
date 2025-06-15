@@ -235,6 +235,12 @@
         
         The **`prompt` dialog box** is used to take input from the user. It contains a textbox and has a button for accepting the input entered by the user. 
 - The **`history` object** is a property of the `window` object that contains the URLs visited by the user. It has three main methods: `back()`, `forward()` and `go()`.
-- The `navigator` object is a property of the `window` object that contains information about the browser. It has various propeties such as `appCodeName`, `cookieEnabled`, `geolocation`, `userAgent` etc. 
+- The `navigator` object is a property of the `window` object that contains information about the browser. It has various propeties such as `appCodeName`, `cookieEnabled`, `geolocation`, `userAgent` etc.
+- The `location` object is a property of the `window` object that contains information about the current URL. It has various properties such as `port`, `host`, `hostname`, etc. that help us identify the location of a particular URL.
+
+    The primary difference between the `host` and `hostname` properties of the `location` object lies in whether they include the port number: 
+
+    - `location.hostname`: This property returns the hostname of a URL without the port number.
+    - `location.host`: This property returns the hostname and the port number of a URL, if the port is specified.
             
          

@@ -1,3 +1,5 @@
+// Run the code in the browser console
+
 // Navigator refers to browser 
 
 console.log(navigator);
