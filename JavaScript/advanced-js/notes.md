@@ -214,14 +214,19 @@
         ```
         new Error(msg, filename, line no);
         ```
-- **Window object:** 
-    - The **Window object** is an essential part of the Browser Object Model (BOM), which refers to the browser window. It has various methods affiliated with it such as `open()`, `close()`, `moveto()` and `resize()`.
+- **`window` object:** 
+    - The `window` object is an essential part of the Browser Object Model (BOM), which refers to the browser window. It has various methods affiliated with it such as `open()`, `close()`, `moveto()` and `resize()`.
     - The shortcut key to open developer tools: 
     
         - Mac: Command + Option + I
         - Windows/Linux: F12 or Control + Shift + J 
     -  When we are creating global variables, we are creating properties on the Window object.
     - The inverse is also true. When we create a property on the Window object, it becomes the global variable.  
+- The **alert dialog popup** displays a message that needs to be shown to the user. It has one button that can be used to acknowledge and close the popup box.  
+
+    It is a blocking method. It blocks the execution of subsequent lines of code till you take action.
+- 
+
 
             
          
