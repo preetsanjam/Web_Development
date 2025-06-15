@@ -222,10 +222,10 @@
         - Windows/Linux: F12 or Control + Shift + J 
     -  When we are creating global variables, we are creating properties on the Window object.
     - The inverse is also true. When we create a property on the Window object, it becomes the global variable.  
-- The **alert dialog popup** displays a message that needs to be shown to the user. It has one button that can be used to acknowledge and close the popup box.  
+- The **`alert` dialog popup** displays a message that needs to be shown to the user. It has one button that can be used to acknowledge and close the popup box.  
 
     It is a blocking method. It blocks the execution of subsequent lines of code till you take action.
-- 
+- The `confirm` dialog box is used to take a boolean answer from a user like yes/no, proceed/cancel, and more. The dialog box contains two buttons based on which appropriate action can be taken.  
 
 
             
