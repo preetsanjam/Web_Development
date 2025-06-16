@@ -242,5 +242,7 @@
 
     - `location.hostname`: This property returns the hostname of a URL without the port number.
     - `location.host`: This property returns the hostname and the port number of a URL, if the port is specified.
+
+    The `location` object has three main methods: `assign()`, `reload()` and `replace()`. 
             
          
