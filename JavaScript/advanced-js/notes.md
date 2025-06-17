@@ -246,9 +246,11 @@
     The `location` object has three main methods: `assign()`, `reload()` and `replace()`. 
 - The **Document Object Model (DOM)** is the hierarchical tree created for the `document` object, which contains the elements that are a part of the current document. Put simply, DOM is a tree of objects that a browser creates. Every object is a DOM Node. 
 
+    ![DOM Image](dom-image.JPG)
+
     - **Need for DOM:** There is a need to identify a document's components for event management, DOM manipulation or dynamic CSS implementation, where DOM aids immensely. 
 
-    - **DOM Node:** A DOM Node is an object that is created for every HTML element on a page. In other words, a DOM Node is an HTML element on an HTML page.    
+    - **DOM Node:** A DOM Node is an object that is created for every HTML element on a page. In other words, a DOM Node is an HTML element on an HTML page.            
 
     - **Accessing the `document`:** To access individual elements on a page, we can point out the element by using the `document.documentElement` and access the specific property we want to change.  
 
