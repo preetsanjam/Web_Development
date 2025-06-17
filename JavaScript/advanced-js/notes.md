@@ -244,7 +244,7 @@
     - `location.host`: This property returns the hostname and the port number of a URL, if the port is specified.
 
     The `location` object has three main methods: `assign()`, `reload()` and `replace()`. 
-- The **Document Object Model (DOM)** is the hierarchical tree created for the `document` object, which contains the elements that are a part of the current document.
+- The **Document Object Model (DOM)** is the hierarchical tree created for the `document` object, which contains the elements that are a part of the current document. Put simply, DOM is a tree of objects that a browser creates. Every object is a DOM Node. 
 
     **Need for DOM:** There is a need to identify a document's components for event management, DOM manipulation or dynamic CSS implementation, where DOM aids immensely. 
 
