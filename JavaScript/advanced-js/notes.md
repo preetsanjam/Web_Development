@@ -28,7 +28,7 @@
         - `var` declarations are hoisted, but their values are not.
         - `console.log(x)` before `x = 1` returns `undefined` because `x` exists but hasn’t been assigned yet.
         - This is not an error, because the variable `x` is already in memory due to hoisting.
-    - Hoisting is a default behavior of moving declarations to the top of the current scope and applies to variable and function declarations. Functions defined using an expression is not hoisted.
+    - Hoisting is a default behavior of moving declarations to the top of the current scope and applies to variable and function declarations. Functions defined using an expression are not hoisted.
 
         Example: 
         ```
@@ -156,7 +156,7 @@
     - The **prototype object** is a special enumerable type of object, to which additional properties can be added that can be shared across all instances of its constructor function.  
     - The `Object.getPrototypeOf()` is a static method that returns the prototype i.e. the value of the internal [[Prototype]] property of that particular object.  
     - In JavaScript, `__proto__` is a method to inherit properties from an object. It is a property of `Object.prototype` which is an accessor property that reveals the [[Prototype]] of the object through which it is accessed.
-    - The `Object.setPrototypeOf()` method sets the prototype that is internal [[Prototype]] property of a particular object to another object or null.
+    - The `Object.setPrototypeOf()` method sets the prototype that is the internal [[Prototype]] property of a particular object to another object or null.
     - In JavaScript, all objects inherit methods and properties from a prototype.
     - Objects inherit from other objects.  
     - Prototype inheritance is the linking of prototypes of a parent object to a child object to share and utilize the properties of the parent class using the child class.
@@ -195,9 +195,9 @@
         - globally by adding the string `'use strict'` directive as the first statement in the file.
         - locally by adding the string `'use strict'` directive as the first statement inside a function.    
 - **Exception handling:**
-    - A **try...catch** is a frequently used statement in different programming languages. It is used to handle error-prone portion of the code. Firstly, it tests the code for all possible errors it may have. Secondly, it implements actions to handle those errors (if any).  
-    in `try{}` block, the code that needs possible error-testing is placed. If an error occurs, it passes to the `catch{}` block to take appropriate actions to handle the error, else it executes the code written in the `try` block.
-    - The `catch{}` block handles the error of the code by executing the statements of the code written within it. This block is executed only when any error-prone code needs to be handled in the `try` block else the `catch` block is skipped.   
+    - A **try...catch** is a frequently used statement in different programming languages. It is used to handle error-prone portions of the code. Firstly, it tests the code for all possible errors it may have. Secondly, it implements actions to handle those errors (if any).  
+    In `try{}` block, the code that needs possible error-testing is placed. If an error occurs, it passes to the `catch{}` block to take appropriate actions to handle the error, else it executes the code written in the `try` block.
+    - The `catch{}` block handles the error of the code by executing the statements of the code written within it. This block is executed only when any error-prone code needs to be handled in the `try` block, else the `catch` block is skipped.   
     - JavaScript has a built-in `error.message` object that gives error information when an error occurs. The message property of the error object provides a human-readable string that gives details about the error or exception that occured.
     - The `catch` block contains either the built-in handler or the user-defined exception handler.  
     - The `finally` block statements are executed after the execution of `try` and `catch` statements. It defines code statements that run regardless of the result.
@@ -235,7 +235,7 @@
         
         The **`prompt` dialog box** is used to take input from the user. It contains a textbox and has a button for accepting the input entered by the user. 
 - The **`history` object** is a property of the `window` object that contains the URLs visited by the user. It has three main methods: `back()`, `forward()` and `go()`.
-- The `navigator` object is a property of the `window` object that contains information about the browser. It has various propeties such as `appCodeName`, `cookieEnabled`, `geolocation`, `userAgent` etc.
+- The `navigator` object is a property of the `window` object that contains information about the browser. It has various properties such as `appCodeName`, `cookieEnabled`, `geolocation`, `userAgent` etc.
 - The `location` object is a property of the `window` object that contains information about the current URL. It has various properties such as `port`, `host`, `hostname`, etc. that help us identify the location of a particular URL.
 
     The primary difference between the `host` and `hostname` properties of the `location` object lies in whether they include the port number: 
@@ -259,5 +259,9 @@
         document.documentElement.style.backgroundColor = 'crimson'
         ```
     - Using the `document.documentElement.child`, we can understand the exact hierarchy for the `document` and then use the syntax `document.documentElement.childNodes[0]`..., since child nodes are all arranged as an array. 
+    - We can access the DOM elements by traversing the hierarchy. For example:
+        - `document.head` will point to the `<head>` tag.  
+        - `document.title` will point to the `<title>` tag.
+        - `document.body.p` will point to all the `<p>` tags in the `document`.
             
          
