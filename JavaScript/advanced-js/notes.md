@@ -264,7 +264,10 @@
         - `document.title` will point to the `<title>` tag.
         - `document.body.p` will point to all the `<p>` tags in the `document`.
     - The `getElementById()` method is a convenient method provided by JavaScript to access an element on the screen by using the element's ID property.  
-    - The `getElementsByClassName()` method is a convenient method to access multiple elements which have been clubbed together by using the `class` property. These elements are retrieved in a collection, which act as an array (in indexing and traversal).  
+    - The `getElementsByClassName()` method is a convenient method to access multiple elements which have been clubbed together by using the `class` property. It returns an HTMLCollection, which is an array-like object. This means:
+        - You can access elements using indices (e.g., `[0]`, `[1]`, etc.).
+        - It has a `.length` property.
+    
     - The `document.getElementsByTagName()` method is used to retrieve a live HTMLCollection of elements with a specific tag name from within the document.
             
          
