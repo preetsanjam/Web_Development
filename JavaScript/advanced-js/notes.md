@@ -263,5 +263,6 @@
         - `document.head` will point to the `<head>` tag.  
         - `document.title` will point to the `<title>` tag.
         - `document.body.p` will point to all the `<p>` tags in the `document`.
+    - The `getElementById()` method is a convenient method provided by JavaScript to access an element on the screen by using the element's ID property.  
             
          
