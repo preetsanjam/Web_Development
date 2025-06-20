@@ -270,5 +270,7 @@
     
     - The `document.getElementsByTagName()` method is used to retrieve a live HTMLCollection of elements with a specific tag name from within the document.
     - The `document.querySelector()` allows us to access simple and complex CSS selectors that may have been used in the `document`. It returns only the first element it encounters. To retrieve multiple elements, we need to use the `document.querySelectorAll()` method.
+    - The `setTimeout()` method pauses the execution of a particular function for a certain time. The time duration is set as the number of milliseconds required.
+    - The `innerHTML()` property aids in setting and retrieving the HTML content of the element it has been invoked for.   
             
          
