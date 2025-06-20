@@ -20,11 +20,17 @@
         var para1 = document.getElementById("para-1");
         console.log(para1);
 
-        var xyzElements = document.getElementsByClassName("xyz");
-        console.log(xyzElements); // Returns HTML collection; it is like an array
-        //console.log(xyzElements[0]); // Returns div
-        //console.log(xyzElements[1]); // Returns section
-        //console.log(xyzElements.length); // Returns 2        
+        var xyzElements = document.getElementsByClassName("xyz"); // Returns HTML collection (an array-like object)
+        console.log(xyzElements); 
+        console.log(xyzElements[0]); // Returns div
+        console.log(xyzElements[1]); // Returns section
+        console.log(xyzElements.length); // Returns 2
+        
+        var singleElement = document.querySelector('.xyz'); // Returns the first DOM node satisfying the criteria
+        console.log(singleElement);
+
+        var elements = document.querySelectorAll('.xyz'); // Returns a node list (an array-like object)
+        console.log(elements);
     </script>
 </body>
 </html>

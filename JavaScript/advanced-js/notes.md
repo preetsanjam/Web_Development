@@ -269,5 +269,6 @@
         - It has a `.length` property.
     
     - The `document.getElementsByTagName()` method is used to retrieve a live HTMLCollection of elements with a specific tag name from within the document.
+    - The `document.querySelector()` allows us to access simple and complex CSS selectors that may have been used in the `document`. It returns only the first element it encounters. To retrieve multiple elements, we need to use the `document.querySelectorAll()` method.
             
          
