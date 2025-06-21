@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .big {
+            font-size: 24px;
+        }
+
+        .red {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <p class="red">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque nihil deleniti maiores corrupti quasi. Quaerat, nemo corporis error cumque accusantium rem? In recusandae aliquid sit iusto inventore vero ad atque?
+        <button onclick="changeFontSize()">Change font size</button>
+    </p>
+
+    <script>
+        function changeFontSize() {
+            // Removes class 'red'
+            document.getElementsByTagName('p')[0].classList.remove('red');
+            
+            // Adds class 'big'
+            document.getElementsByTagName('p')[0].classList.add('big');
+        }
+    </script>
+</body>
+</html>
