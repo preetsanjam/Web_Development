@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://www.google.com">Google</a>
+    <button onclick="switchToBing();">Swtich to Bing</button>
+
+    <script>
+        function switchToBing() {
+            var link = document.querySelector('a').href = 'https://www.bing.com';
+            console.log(link);
+            var text = document.getElementsByTagName('button').innerText = 'Bing';
+            console.log(text);
+        }
+    </script>
+</body>
+</html>
