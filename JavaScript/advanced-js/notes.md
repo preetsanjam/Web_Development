@@ -273,5 +273,7 @@
     - The `setTimeout()` method pauses the execution of a particular function for a certain time. The time duration is set as the number of milliseconds required.
     - The `innerHTML()` property aids in setting and retrieving the HTML content of the element it has been invoked for. 
     - The `innerText()` property sets the text of the selected HTML element. It is generally used to display user inputs in a dynamic manner.   
+    - The `style` property of an attribute can be accessed using the JavaScript `style` property that exists for all selector methods. Various colors, position and font changes can be made to elements using this property.
+    - When we set any CSS property on the `style` property of a DOM node, it gets set as inline style. 
             
          

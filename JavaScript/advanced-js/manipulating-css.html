@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque nihil deleniti maiores corrupti quasi. Quaerat, nemo corporis error cumque accusantium rem? In recusandae aliquid sit iusto inventore vero ad atque?
+        <button onclick="changeColor()">Change color</button>
+    </p>
+
+    <script>
+        function changeColor() {
+            document.getElementsByTagName('p')[0].style.color = 'red';
+            // style.backgroundColor will change the background color
+            // style.fontSize = '2em'
+        }
+    </script>
+</body>
+</html>
