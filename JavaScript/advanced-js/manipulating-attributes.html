@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="./lion-king-1.jpg"/>
+    <button onclick="changeImage();">Change image</button>
+
+    <script>
+        function changeImage() {
+            // document.querySelector("img").src = "./lion-king-2.jpg";
+            
+            // hasAttribue
+            console.log('Function being called');
+            console.log(document.querySelector('img').hasAttribute('src')); // Returns boolean value true
+            console.log(document.querySelector('img').hasAttribute('alt')); // Returns boolean value false
+
+            // getAttribute
+            console.log(document.querySelector('img').getAttribute('src')); // Returns the value of the attribute
+
+            // setAttribue
+            console.log(document.querySelector('img').setAttribute('src', './lion-king-2.jpg'));
+        };
+    </script>
+</body>
+</html>

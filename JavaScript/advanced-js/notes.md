@@ -275,6 +275,7 @@
     - The `innerText()` property sets the text of the selected HTML element. It is generally used to display user inputs in a dynamic manner.   
     - The `style` property of an attribute can be accessed using the JavaScript `style` property that exists for all selector methods. Various colors, position and font changes can be made to elements using this property.
     - When we set any CSS property on the `style` property of a DOM node, it gets set as inline style.
-    - The `classList` property returns the CSS class names of an element and has various methods like `add()`, `contain()`, `item()`, `remove()` and more that help in manipulating an element's CSS classes.  
+    - The `classList` property returns the CSS class names of an element and has various methods like `add()`, `contain()`, `item()`, `remove()` and more that help in manipulating an element's CSS classes. 
+    - The `<button>` tag's `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on the click of the button.    
             
          
