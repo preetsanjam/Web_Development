@@ -11,10 +11,15 @@
 
     <script>
         function switchToBing() {
-            var link = document.querySelector('a').href = 'https://www.bing.com';
-            console.log(link);
-            var text = document.getElementsByTagName('button').innerText = 'Bing';
-            console.log(text);
+            var link = document.querySelector('a');
+            link.href = 'https://www.bing.com';
+            link.innerText = 'Bing';
+            link.setAttribute('target', '_blank');
+
+            // Another approach
+            // document.querySelector('a').href = 'https://www.bing.com';
+            // document.querySelector('a').innerText = 'Bing';
+            
         }
     </script>
 </body>
