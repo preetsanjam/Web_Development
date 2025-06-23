@@ -279,14 +279,23 @@
     - The `<button>` tag's `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on the click of the button.  
 - **Events** are occurrences that can be used to trigger resulting actions in a programming environment. Some examples of events are a mouse's right click, a keyboard key being pressed down, a form button being clicked, etc. 
 
-    Every event is related to a DOM node.
-
     Types of events:
+    - **Window events**: These events relate to actions or states of the browser window. Examples: `load`, `unload`, `resize`, `scroll` and `DOMContentLoaded`.
+
+        The load event fires on the `window` object,images, `<script>` tag, etc.
     
-    - Load: The load event fires on the `window` object,images, `<script>` tag, etc.
-    - Click: It is related to buttons, div and paragraph.
-    - Keyboard: It is fired on input elements. For example, `keyup`, `focus` and A`blur`.
-    - Mouse: It is fired on any element. For example, `mouseover`.
-    - Submit: It is fired on the `form` element. When we click on the 'Submit' button, the submit event is fired on the `form` element.  
+    - **Mouse events**: These events are triggered by interactions with the mouse. Examples: `click`, `dblclick`, `mousedown`, `mouseup`, `mousemove`, `mouseover`, `mouseout` and `contextmenu`.
+
+        `click` is  related to buttons, div and paragraph.
+        
+        It is fired on any element.
+
+    - **Keyboard events**: These events occur when a user interacts with the keyboard. Examples: `keydown`, `keypress` and `keyup`.
+    
+        Keyboard events are fired on input elements.
+
+    - **Form events**: These events are associated with user interactions with HTML forms and form elements. Examples: `submit`, `change`, `focus`, `blur`, `input`, `select` and `reset`.
+        
+        `submit` is fired on the `form` element. When we click on the 'Submit' button, the submit event is fired on the `form` element.    
             
          
