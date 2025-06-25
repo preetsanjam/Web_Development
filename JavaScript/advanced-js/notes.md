@@ -299,17 +299,14 @@
         `submit` is fired on the `form` element. When we click on the 'Submit' button, the submit event is fired on the `form` element.    
 - When does the `load` event fire on `window` object? Once DOM nodes are created, and all assets (scripts, stylesheets, font files, images etc.) are fetched (and executed if necessary).
 
-    Explanation:
-The load event on the window object fires when the entire page is fully loaded, which includes:
+    **Explanation**: 
+    
+    The load event on the window object fires when the entire page is fully loaded, which includes:
+    - DOM content
+    - External scripts and stylesheets
+    - Images, videos, fonts
+    - Other linked resources
 
-DOM content
-
-External scripts and stylesheets
-
-Images, videos, fonts
-
-Other linked resources
-
-This is after everything has been downloaded and processed.
+    This is after everything has been downloaded and processed.
             
          
