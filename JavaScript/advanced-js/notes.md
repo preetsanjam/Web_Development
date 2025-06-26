@@ -308,5 +308,6 @@
     - Other linked resources
 
     This is after everything has been downloaded and processed.
+- The `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on clicking an event. 
             
          

@@ -9,10 +9,18 @@
     <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolorem doloribus assumenda beatae recusandae deleniti illum nesciunt velit vel dignissimos quidem consectetur in, provident debitis doloremque officiis excepturi error eum!
     </p>
+
+    <button>Click Me</button>
     <script>
         window.onload = function() {
             alert('The page has loaded');
         };
+
+        function handleClick() {
+            alert('I was clicked');
+        }
+
+        document.querySelector('button').onclick = handleClick;
     </script>
 </body>
 </html>
