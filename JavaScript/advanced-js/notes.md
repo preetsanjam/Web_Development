@@ -301,7 +301,7 @@
 
     **Explanation**: 
     
-    The load event on the window object fires when the entire page is fully loaded, which includes:
+    The `load` event on the `window` object fires when the entire page is fully loaded, which includes:
     - DOM content
     - External scripts and stylesheets
     - Images, videos, fonts
