@@ -308,6 +308,7 @@
     - Other linked resources
 
     This is after everything has been downloaded and processed.
-- The `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on clicking an event. 
+- The `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on clicking an event.
+- The `addEventListener` method is an alternate method to add an event-handling code. The method takes two arguments: first, the name of the event as a string; second; the function to be invoked to handle the event.    
             
          

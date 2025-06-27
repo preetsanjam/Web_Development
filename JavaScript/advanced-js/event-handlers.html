@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
+    <p id="para-1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolorem doloribus assumenda beatae recusandae deleniti illum nesciunt velit vel dignissimos quidem consectetur in, provident debitis doloremque officiis excepturi error eum!
     </p>
 
@@ -21,6 +21,17 @@
         }
 
         document.querySelector('button').onclick = handleClick;
+
+        /* Mouse event
+        document.getElementById('para-1').onmouseover =  function() {
+            console.log('The mouse is over para');
+        };
+        */
+        
+        // Alternate method
+        document.getElementById('para-1').addEventListener('mouseover', function() {
+            console.log('The mouse is over para');
+        });
     </script>
 </body>
 </html>
