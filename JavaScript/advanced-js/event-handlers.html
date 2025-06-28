@@ -23,7 +23,9 @@
             alert('I was clicked');
         }
 
-        document.querySelector('button').onclick = handleClick;
+        // Asking the browser to execute 'handleClick' when the 'click' event occurs on the button DOM node
+        document.querySelector('button').onclick = handleClick; // Not calling the function
+                                                                // Giving a reference to the function
 
         /* Mouse event
         document.getElementById('para-1').onmouseover =  function() {
