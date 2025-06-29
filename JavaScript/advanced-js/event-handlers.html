@@ -20,12 +20,17 @@
         };
 
         function handleClick() {
-            alert('I was clicked');
+            alert('I was clicked (1)');
+        }
+
+        function handleClick2() {
+            alert('I was clicked (2)');
         }
 
         // Asking the browser to execute 'handleClick' when the 'click' event occurs on the button DOM node
         document.querySelector('button').onclick = handleClick; // Not calling the function
                                                                 // Giving a reference to the function
+        document.querySelector('button').onclick = handleClick2;
 
         /* Mouse event
         document.getElementById('para-1').onmouseover =  function() {
@@ -33,9 +38,14 @@
         };
         */
         
-        // Alternate method
+        // Alternate method: Preferred
+        // Advantage: We can set up multiple event handlers
         document.getElementById('para-1').addEventListener('mouseover', function() {
-            console.log('The mouse is over para');
+            console.log('The mouse is over para (1)');
+        });
+
+        document.getElementById('para-1').addEventListener('mouseover', function() {
+            console.log('The mouse is over para (2)');
         });
     </script>
 </body>
