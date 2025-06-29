@@ -312,5 +312,8 @@
 - The `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on clicking an event.
 - The `addEventListener` method is an alternate method to add an event-handling code. The method takes two arguments: first, the name of the event as a string; second; the function to be invoked to handle the event.  
 - **Event handler context:** Every function has a context when it is called. An event handler is a specialized function used for handling an event and its context can be accessed by using the `this` keyword, which returns the HTML element for which the event handler was called.  
-            
-         
+- When an event is fired (for example, a mouse click), the browser generates an object associated with that event. This object contains details about the event. 
+
+    For example, when we click on a button, the browser will generate an object which will have details whether it was a right-mouse click or left-mouse click.               
+        
+    All such information is gathered in the `event` object and passed to event handler.
