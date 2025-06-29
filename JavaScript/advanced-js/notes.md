@@ -322,3 +322,5 @@
     1. Capturing phase: The phase where the event goes down to the element.
     2. Target phase: The phase where the event has reached the target element.
     3. Bubbling phase: The phase where the event bubbles up from the element.  
+
+    The order of event propagation is from the innermost element's event to the outermost element's events. 
