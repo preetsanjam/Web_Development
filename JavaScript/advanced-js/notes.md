@@ -296,7 +296,8 @@
 
     - **Form events**: These events are associated with user interactions with HTML forms and form elements. Examples: `submit`, `change`, `focus`, `blur`, `input`, `select` and `reset`.
         
-        `submit` is fired on the `form` element. When we click on the 'Submit' button, the submit event is fired on the `form` element.    
+        `submit` is fired on the `form` element. When we click on the 'Submit' button, the submit event is fired on the `form` element.   
+- An event handler is a function that is executed when an event is trigerred.  
 - When does the `load` event fire on `window` object? Once DOM nodes are created, and all assets (scripts, stylesheets, font files, images etc.) are fetched (and executed if necessary).
 
     **Explanation**: 
@@ -309,6 +310,7 @@
 
     This is after everything has been downloaded and processed.
 - The `onclick` attribute acts as an event handler and contains the call to the function that needs to be triggered on clicking an event.
-- The `addEventListener` method is an alternate method to add an event-handling code. The method takes two arguments: first, the name of the event as a string; second; the function to be invoked to handle the event.    
+- The `addEventListener` method is an alternate method to add an event-handling code. The method takes two arguments: first, the name of the event as a string; second; the function to be invoked to handle the event.  
+- **Event handler context:** Every function has a context when it is called. An event handler is a specialized function used for handling an event and its context can be accessed by using the `this` keyword, which returns the HTML element for which the event handler was called.  
             
          
