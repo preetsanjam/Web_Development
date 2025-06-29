@@ -317,3 +317,4 @@
     For example, when we click on a button, the browser will generate an object which will have details whether it was a right-mouse click or left-mouse click.               
         
     All such information is gathered in the `event` object and passed to event handler.
+- **`preventDefault` method:** The `preventDefault()` method enables us to cancel the default action that normally happens, meaning that the default action that belonged to a particular event will no longer occur.   

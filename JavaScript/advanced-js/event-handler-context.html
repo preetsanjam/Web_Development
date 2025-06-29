@@ -7,12 +7,19 @@
 </head>
 <body>
     <button>Click me</button>
+    <a href="https://www.google.com">Google search page</a>
 
     <script>
         document.querySelector('button').addEventListener('click', function() {
             console.log(this);  // Returns <button>Click me</button>
                                 // Refers to the button element that was clicked
-        })
+        });
+
+        document.querySelector('a').addEventListener('click', function(event) {
+            if(!confirm('Are you sure you want to leave my website?')) {
+            event.preventDefault();
+            }
+        });
     </script>
 </body>
 </html>
