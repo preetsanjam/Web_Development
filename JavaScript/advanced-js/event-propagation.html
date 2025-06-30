@@ -21,17 +21,24 @@
     </div>
 
     <script>
-        document.querySelector('#div-c').addEventListener('click', function() {
-            console.log('div-c clicked');
-        });
-
-        document.querySelector('#div-p').addEventListener('click', function() {
-            console.log('div-p clicked');
-        });
-
         document.querySelector('#div-gp').addEventListener('click', function() {
             console.log('div-gp clicked');
+            console.log(this);
+            console.log(event.target); // event.target always refers to the innnermost element
         });
+
+        document.querySelector('#div-p').addEventListener('click', function(event) {
+            console.log('div-p clicked');
+            event.stopPropagation(); // Stops event propagation at the parent level
+            console.log(this);
+            console.log(event.target);
+        });
+
+        document.querySelector('#div-c').addEventListener('click', function() {
+            console.log('div-c clicked');
+            console.log(this);
+            console.log(event.target);
+        });    
     </script>
 </body>
 </html>

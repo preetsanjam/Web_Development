@@ -317,10 +317,12 @@
     For example, when we click on a button, the browser will generate an object which will have details whether it was a right-mouse click or left-mouse click.               
         
     All such information is gathered in the `event` object and passed to event handler.
-- **`preventDefault` method:** The `preventDefault()` method enables us to cancel the default action that normally happens, meaning that the default action that belonged to a particular event will no longer occur. 
+- The **`preventDefault()` method:** The `preventDefault()` method enables us to cancel the default action that normally happens, meaning that the default action that belonged to a particular event will no longer occur. 
 - **Event propagation** is a way to describe the "stack" of events that are fired in a web browser. It has three phases:
     1. Capturing phase: The phase where the event goes down to the element.
     2. Target phase: The phase where the event has reached the target element.
     3. Bubbling phase: The phase where the event bubbles up from the element.  
 
-    The order of event propagation is from the innermost element's event to the outermost element's events. 
+    The **order of event propagation** is from the innermost element's event to the outermost element's events. 
+- The `stopPropagation()` method is used to stop the bubbling phase in its track by completely stopping the event propagation.
+- **Event's context and target:** The `event` object's context refers to the element for which the event has been called. The `event` object's target, on the other hand, always refers to the innermost child element in the event propagation process.  
