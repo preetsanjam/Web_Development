@@ -326,3 +326,4 @@
     The **order of event propagation** is from the innermost element's event to the outermost element's events. 
 - The `stopPropagation()` method is used to stop the bubbling phase in its track by completely stopping the event propagation.
 - **Event's context and target:** The `event` object's context refers to the element for which the event has been called. The `event` object's target, on the other hand, always refers to the innermost child element in the event propagation process.  
+- **ES6** or **ECMAScript6** is also known as **ECMAScript2015**. It was the second major update for JavaScript. It allows for the development of more complex web apps with the inclusion of constructs such as `const`, `let`, template literals and more. 
