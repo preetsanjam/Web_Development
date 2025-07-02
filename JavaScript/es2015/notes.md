@@ -9,3 +9,7 @@
     3. Variables declared with `var` are hoisted, whereas those declared with `let` are not.
 
     4. Variables declared with `let`, though they maybe global, are not created as properties of the `window` object, whereas variables declared with `var` are created as properties of the `window` object. 
+
+- `let` vs `const`:
+
+    1. Unlike the variables declared with the `let` keyword, whose value can be updated, the value of a variable declared with the `const` keyword cannot be updated. Also, the value of a `const` variable needs to be assigned on declaration.  
