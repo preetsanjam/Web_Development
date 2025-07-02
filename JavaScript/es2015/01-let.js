@@ -24,7 +24,8 @@ if(true) {
 
 // console.log(x); // Thorws an error because 'x' declared with 'let' keyword is block-scoped
                 // It must be called within the block of code 
-console.log(y);
+
+console.log(y); // No error because 'y' is a global variable 
 
 // console.log(a); Throws an error because 'a' declared with 'let' are not hoisted
 // Variable 'a' is unavailable before the line of declaration  
