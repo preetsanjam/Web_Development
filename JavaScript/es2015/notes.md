@@ -14,4 +14,5 @@
 
     Unlike the variables declared with the `let` keyword, whose value can be updated, the value of a variable declared with the `const` keyword cannot be updated. Also, the value of a `const` variable needs to be assigned on declaration.  
 
-- **Template strings:** Template strings in ES6 allow us to create templates for how we want our variables and string literals to be arranged for display on the browser. This is done with the help of backtickes (`).  
+- **Template strings** in ES6 allow us to create templates for how we want our variables and string literals to be arranged for display on the browser. This is done with the help of backtickes (`).  
+- **Default arguments** are a new feature in ES6, which allows us to define a default value of an argument which will be considered in case the argument value is not defined in the function call.
