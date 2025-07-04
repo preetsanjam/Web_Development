@@ -12,4 +12,6 @@
 
 - `let` vs `const`:
 
-    1. Unlike the variables declared with the `let` keyword, whose value can be updated, the value of a variable declared with the `const` keyword cannot be updated. Also, the value of a `const` variable needs to be assigned on declaration.  
+    Unlike the variables declared with the `let` keyword, whose value can be updated, the value of a variable declared with the `const` keyword cannot be updated. Also, the value of a `const` variable needs to be assigned on declaration.  
+
+- **Template strings:** Template strings in ES6 allow us to create templates for how we want our variables and string literals to be arranged for display on the browser. This is done with the help of backtickes (`).  
