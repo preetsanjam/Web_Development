@@ -16,6 +16,6 @@
 
 - **Template strings** in ES6 allow us to create templates for how we want our variables and string literals to be arranged for display on the browser. This is done with the help of backticks (`).  
 - **Default arguments** are a new feature in ES6, which allows us to define a default value of an argument which will be considered in case the argument value is not defined in the function call.
-- **Array destructuring** aids us in creating variables with the individual elements of an array. It is often used in scenarios where we need to isolate the elements of an array before further processing. 
+- **Array destructuring** aids us in creating variables with the individual elements of an array. It is often used in scenarios where we need to isolate the elements of an array before further processing. It is useful when we are creating too many variables from an array.
 
-    
+    **Skipping items:** If we want to skip an item during the destructuring process, we can add a comma in the location of the element we want to skip. The number of commas added is equal to the number of elements skipped. 
