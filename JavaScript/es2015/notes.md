@@ -19,3 +19,6 @@
 - **Array destructuring** aids us in creating variables with the individual elements of an array. It is often used in scenarios where we need to isolate the elements of an array before further processing. It is useful when we are creating too many variables from an array.
 
     **Skipping items:** If we want to skip an item during the destructuring process, we can add a comma in the location of the element we want to skip. The number of commas added is equal to the number of elements skipped. 
+- **Object destructuring** helps us to create variables with the individual properties in an object.
+
+    **Object destructuring syntax:** We use open and close braces "{}" for destructuring objects in ES6. We can also use these to destructure the nested objects and arrays within an object. 
