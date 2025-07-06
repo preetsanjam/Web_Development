@@ -22,3 +22,4 @@
 - **Object destructuring** helps us to create variables with the individual properties in an object.
 
     **Object destructuring syntax:** We use open and close braces "{}" for destructuring objects in ES6. We can also use these to destructure the nested objects and arrays within an object. 
+- The **rest operator** "..." allows us to call a function with any number of arguments and then access the set of arguments as an array in the program. 
