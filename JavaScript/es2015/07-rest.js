@@ -37,4 +37,16 @@ const[first, second, ...restOfDays] = days; // '...restOfDays' creates an array 
 console.log(first, second, restOfDays);
 
 // 3. When doing object destructuring
+const john = {
+    name: 'John',
+    age: 32,
+    emailIds: [
+        'john@gmail.com',
+        'john@yahoo.com'
+    ],
+    address: {
+        city: 'Bangalore',
+        pinCode: 560100 
+    } 
+}
 
