@@ -23,7 +23,18 @@ const result = foo(14, 78, 45, 10, 67);
 console.log(result);
 
 // 2. When doing array destructuring 
+const days = [
+    'Mon',
+    'Tue',
+    'Wed',
+    'Thu',
+    'Fri'
+];
 
+const[first, second, ...restOfDays] = days; // '...restOfDays' creates an array of remaining items
+                                            // This array is not destructured
+                                            // Use case: We can use this array later 
+console.log(first, second, restOfDays);
 
 // 3. When doing object destructuring
 
