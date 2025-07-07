@@ -50,3 +50,10 @@ const john = {
     } 
 }
 
+ const{name, age, ...otherDetails} = john; // '...otherDetails' captures the details in an object
+ console.log(name, age, otherDetails); 
+
+// Destructuring a part of the object
+ const{address : {city}, ...otherDetailsOfJohn} = john;
+ console.log(city, otherDetailsOfJohn);
+

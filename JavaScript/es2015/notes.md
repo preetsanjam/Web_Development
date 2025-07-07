@@ -25,3 +25,5 @@
 - The **rest operator** "..." allows us to call a function with any number of arguments and then access the set of arguments as an array in the program. 
 
     **Rest operator position:** Similar to the position in function arguments, the rest operator in array destructuring has to be placed at the end of the array destructuring code. Doing otherwise generates an error.  
+
+    **Object destructuring:** If any part of the object is accessed even partially, the remaining part of the object property/array/nested object will not be destructured by the "..." operator.  
