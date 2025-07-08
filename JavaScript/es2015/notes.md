@@ -29,4 +29,6 @@
 
     **Object destructuring:** If any part of the object is accessed even partially, the remaining part of the object property/array/nested object will not be destructured by the "..." operator.  
 
-- **Spread operator:** The spread operator is similar to 
+- **Spread operator:** The spread operator is similar to but different from the rest operator. It is an overload of the rest operator, i.e., '...' symbol.
+
+    Unlike the rest operator, the spread operator is used when accepting inputs for a function via arguments.
