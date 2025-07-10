@@ -36,3 +36,7 @@
     We use the rest operator when we are accepting an argument, whereas we use the spread operator when passing arguments.
 
     The spread operator is used to make a copy of an object we want to be duplicated. It creates a shallow copy of the original object. 
+
+- **Objects in JavaScript:** An object is an instance of a class that contains all properties and methods that exist in the class but with defined values and functionalities. Objects are created using the `new` keyword.
+
+    **Constructors** are specialized methods that allocate memory space and values to the properties of the object on creation. In JavaScript, the `constructor()` method is defined inside a class.
