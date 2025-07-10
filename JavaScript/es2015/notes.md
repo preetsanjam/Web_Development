@@ -31,4 +31,8 @@
 
 - **Spread operator:** The spread operator is similar to but different from the rest operator. It is an overload of the rest operator, i.e., '...' symbol.
 
-    Unlike the rest operator, the spread operator is used when accepting inputs for a function via arguments.
+    Unlike the rest operator, the spread operator is used when accepting inputs for a function via arguments. 
+
+    We use the rest operator when we are accepting an argument, whereas we use the spread operator when passing arguments.
+
+    The spread operator is used to make a copy of an object we want to be duplicated. It creates a shallow copy of the original object. 
