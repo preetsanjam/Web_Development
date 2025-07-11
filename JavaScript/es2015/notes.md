@@ -42,3 +42,8 @@
 - **Objects in JavaScript:** An object is an instance of a class that contains all properties and methods that exist in the class but with defined values and functionalities. Objects are created using the `new` keyword.
 
     **Constructors** are specialized methods that allocate memory space and values to the properties of the object on creation. In JavaScript, the `constructor()` method is defined inside a class.
+
+    In JavaScript, we can have **one constructor per class**.
+
+- **Inheritance in JavaScript:** Similar to Java, JavaScript also uses the `extends` keyword.
+- **`super` keyword:** The parent class is also known as the super class. When referring to the parent class properties, methods or constructors, we can use the `super` keyword instead, which will point to the direct parent class of the current class.
