@@ -1,12 +1,13 @@
 class Person {
     constructor(name, age) {
-        console.log(this);
+        console.log(this); // Context of the constructor is the newly created object
         this.name = name;
         this.age = age;
     }
 
+    // Adding a method
     celebrateBirthday() {
-        this.age++;
+        this.age++; // The context is the object; 'this' refers to the object
     }
 }
 

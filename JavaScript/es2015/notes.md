@@ -37,6 +37,8 @@
 
     The spread operator is used to make a copy of an object we want to be duplicated. It creates a shallow copy of the original object. 
 
+- **Classes in JavaScript:** Similar to classes in other programming languages such as Java, classes in JavaScript act as a blueprint for objects having a set of properties and methods.
+
 - **Objects in JavaScript:** An object is an instance of a class that contains all properties and methods that exist in the class but with defined values and functionalities. Objects are created using the `new` keyword.
 
     **Constructors** are specialized methods that allocate memory space and values to the properties of the object on creation. In JavaScript, the `constructor()` method is defined inside a class.
