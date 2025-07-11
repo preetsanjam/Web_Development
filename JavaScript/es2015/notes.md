@@ -47,3 +47,4 @@
 
 - **Inheritance in JavaScript:** Similar to Java, JavaScript also uses the `extends` keyword.
 - **`super` keyword:** The parent class is also known as the super class. When referring to the parent class properties, methods or constructors, we can use the `super` keyword instead, which will point to the direct parent class of the current class.
+- **Iterables** are objects that can be iterated through, for example, an array or a string, where elements are maintained in a particular order. 
