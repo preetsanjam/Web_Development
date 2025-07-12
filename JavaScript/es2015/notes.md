@@ -55,3 +55,5 @@
     The key can be of any datatype.
 
 - **Set in JavaScript:** A JavaScript `Set` is a collection of unique values, meaning each value can only occur once. `Set` objects can hold any value of any data type and they are iterable.   
+
+- A **callback function** is passed as an argument to another function and is later executed within that function to accomplish a particular task or action.
