@@ -48,7 +48,7 @@
 - **Inheritance in JavaScript:** Similar to Java, JavaScript also uses the `extends` keyword.
 - **`super` keyword:** The parent class is also known as the super class. When referring to the parent class properties, methods or constructors, we can use the `super` keyword instead, which will point to the direct parent class of the current class.
 - **Iterables** are objects that can be iterated through, for example, an array or a string, where elements are maintained in a particular order. 
-- **Map:** `Map` objects are a set of key-value pairs, where the key can be of any datatype. They key in a `Map` object can only occur once, thereby making it a useful construct in accessing the uniqueness of elements. 
+- **Map:** `Map` objects are a set of key-value pairs, where the key can be of any datatype. The key in a `Map` object can only occur once, thereby making it a useful construct in accessing the uniqueness of elements. 
     
     There is a sequence of key-value pairs.
 
@@ -57,4 +57,8 @@
 - **Set in JavaScript:** A JavaScript `Set` is a collection of unique values, meaning each value can only occur once. `Set` objects can hold any value of any data type and they are iterable.   
 
 - A **callback function** is passed as an argument to another function and is later executed within that function to accomplish a particular task or action.
-- The `setTimeout()` method is a global method that allows the scheduling of a timer to trigger the execution of a specified function once the set time delay has elapsed.  
+- The `setTimeout()` method is a global method that allows the scheduling of a timer to trigger the execution of a specified function once the set time delay has elapsed.
+
+    It is a request made to the browser to call the passed function after a specified time.
+
+- **Non-blocking methods**  execute asynchronously, permitting further operations to continue without waiting for their completion, which means that the program does not have to execute in a step-by-step manner. 
