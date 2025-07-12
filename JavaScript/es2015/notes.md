@@ -52,4 +52,6 @@
     
     There is a sequence of key-value pairs.
 
-    The key can be of any datatype.  
+    The key can be of any datatype.
+
+- **Set in JavaScript:** A JavaScript `Set` is a collection of unique values, meaning each value can only occur once. `Set` objects can hold any value of any data type and they are iterable.   
