@@ -13,3 +13,7 @@ const sum = (x, y,) => {
     return Promise; 
 };
 
+const promise = sum(10, 20);
+
+promise.then( (result) => console.log(result) );
+

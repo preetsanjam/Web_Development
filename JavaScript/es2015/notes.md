@@ -78,4 +78,6 @@
 
     A `Promise` can have one of the three states: pending, fulfilled and rejected. The `Promise` begins with a pending state, i.e., the process is not complete. The `Promise` ends in a fulfilled state if successful and a rejected state if an error occurs.
 
-    The `Promise` can be handled using `then()`, `catch()` and `finally()` methods. The `then()` method is called when a `promise` is either resolved or rejected. The `catch()` method is called when a `promise` is either rejected or some error occurs in execution.   
+    Promises can be handled using `then()`, `catch()` and `finally()` methods. The `then()` method is called when a `promise` is either resolved or rejected. The `catch()` method is called when a `promise` is either rejected or some error occurs in execution.   
+
+- Arrow function syntax automatically binds `this` to the nearby code's context. Writing the arrow (=>) is more flexible as compared to writing the `function` keyword. 
