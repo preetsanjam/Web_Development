@@ -1,4 +1,4 @@
-const sum = (x, y,cb) => {
+const sum = (x, y,cb) => { // cb means callback
     setTimeout(() => { 
         cb(x + y);
     }, 2000);
@@ -16,5 +16,3 @@ console.log(sum(10, 20, printResult));
 // Sum function (line 13) gets called; printResult() function was passed as a reference 
 // cb is the printResult() function
 // setTimeout is called; this function is scheduled to be executed after 2 sec
-
-

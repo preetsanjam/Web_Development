@@ -62,3 +62,5 @@
     It is a request made to the browser to call the passed function after a specified time.
 
 - **Non-blocking methods**  execute asynchronously, permitting further operations to continue without waiting for their completion, which means that the program does not have to execute in a step-by-step manner. 
+- 'Callback hell' is the main disadvantage of callback. It is resulted from nested callbacks and can decrease code readability and maintainability.
+- 
