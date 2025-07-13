@@ -63,4 +63,4 @@
 
 - **Non-blocking methods**  execute asynchronously, permitting further operations to continue without waiting for their completion, which means that the program does not have to execute in a step-by-step manner. 
 - 'Callback hell' is the main disadvantage of callback. It is resulted from nested callbacks and can decrease code readability and maintainability.
-- 
+- A `Promise` is a special JavaScript object that acts as a container for future values and is used to handle asynchronous operations. It is created using a `Constructor` function. 
