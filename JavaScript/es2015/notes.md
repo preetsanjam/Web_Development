@@ -64,3 +64,18 @@
 - **Non-blocking methods**  execute asynchronously, permitting further operations to continue without waiting for their completion, which means that the program does not have to execute in a step-by-step manner. 
 - 'Callback hell' is the main disadvantage of callback. It is resulted from nested callbacks and can decrease code readability and maintainability.
 - A `Promise` is a special JavaScript object that acts as a container for future values and is used to handle asynchronous operations. It is created using a `Constructor` function. 
+
+    The `Promise` object takes two parameters: `resolve` for success and `reject` if an error occurs.
+
+    A `promise` is created using the `Promise` constructor.
+
+    Syntax:
+    ```
+    const promise = new Promise(function(resolve, reject) {
+        // Statements to perform;
+    });
+    ```
+
+    A `Promise` can have one of the three states: pending, fulfilled and rejected. The `Promise` begins with a pending state, i.e., the process is not complete. The `Promise` ends in a fulfilled state if successful and a rejected state if an error occurs.
+
+    The `Promise` can be handled using `then()`, `catch()` and `finally()` methods. The `then()` method is called when a `promise` is either resolved or rejected. The `catch()` method is called when a `promise` is either rejected or some error occurs in execution.   
