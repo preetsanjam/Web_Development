@@ -10,10 +10,20 @@ const sum = (x, y,) => {
         }, 2000);
     }); 
     
-    return Promise; 
+    return promise; 
 };
 
 const promise = sum(10, 20);
+promise
+    .then( (result) => {
+        console.log(result)
+        return sum(result, 30); 
+        })
+    .then((value) => console.log(value)); // Here, value is not a promise 
 
-promise.then( (result) => console.log(result) );
+
+const sumResult = sum(10, 'Hello');
+sumResult
+    .then((result2) => console.log(result2))
+    .catch(error => console.log(error.message));
 
