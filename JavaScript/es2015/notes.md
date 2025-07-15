@@ -88,3 +88,15 @@
 - **`XMLHttpRequest`** is a built-in browser object that permits us to make HTTP requests. This object helps the client interact with the server and is the easiest way to retrieve data from a URL without refreshing the page.
 
     The word 'XML' in `XMLHttpRequest` doesn't mean that it can operate only with XML type of data. It supports receiving HTML, XML and JSON data through the `XMLHttpRequest` object. 
+
+    `xhr.onload()` event occurs when any response is received from the server. These responses can also include any HTTP error responses. 
+
+    **AJAX** stands for Asynchronous JavaScript and XML. It is not a programming language, but a technique used to build more responsive websites and applications.
+
+    The `responseText` property is used if the response from the server is of string data. We also have the `responseXML` property, which is used if the response from the server is of XML data.
+
+    The various HTTP methods include `GET`, `POST`, `OPTIONS`, `HEAD`, `PUT` and `DELETE`.
+
+    `xhr.open()` has two non-optional parameters -- method and url -- and three optional parameters -- async, user and password.
+
+    The optional async parameter takes a boolean value. If the value is set to true, it indicates whether or not to perform the operation asynchronously. If the value is set to false, the `send()` method waits for a response to be received.
