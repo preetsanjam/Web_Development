@@ -85,3 +85,6 @@
     **Benefits of using promises:** Asynchronous operations are handled better, code readability is improved, which makes debugging easier, better error handling capability, and the flow of control is better specified by asynchronous code. 
 
 - Arrow function syntax automatically binds `this` to the nearby code's context. Writing the arrow (=>) is more flexible as compared to writing the `function` keyword. 
+- **`XMLHttpRequest`** is a built-in browser object that permits us to make HTTP requests. This object helps the client interact with the server and is the easiest way to retrieve data from a URL without refreshing the page.
+
+    The word 'XML' in `XMLHttpRequest` doesn't mean that it can operate only with XML type of data. It supports receiving HTML, XML and JSON data through the `XMLHttpRequest` object. 
