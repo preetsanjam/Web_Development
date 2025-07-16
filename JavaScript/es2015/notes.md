@@ -108,3 +108,5 @@
     ```
     cosnt response = fetch(URL, [option]) 
     ```
+
+- `response.json([selector])` parses/converts the response body data as JSON and returns a JS array or object.
