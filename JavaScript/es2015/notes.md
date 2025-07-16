@@ -115,3 +115,4 @@
     The `body` parameter in the `fetch()` method can be of any type which include `body.array.buffer()`, `body.formData()`, `body.json()`, `body.blob()` and `body.text()`.
 
 - The **HTTP `POST` method** is used to send data to the server. It is often used in applications where uploading a file or submitting a completed web form is required.
+- The `Content-Type`, aka MIME or media types, is an identifier used to convey to the HTTP client or server what the media/file type of a resource is. The identification of the file type enables the browser to work faster.  
