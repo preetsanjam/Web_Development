@@ -63,7 +63,7 @@
 
 - **Non-blocking methods**  execute asynchronously, permitting further operations to continue without waiting for their completion, which means that the program does not have to execute in a step-by-step manner. 
 - 'Callback hell' is the main disadvantage of callback. It is resulted from nested callbacks and can decrease code readability and maintainability.
-- A `Promise` is a special JavaScript object that acts as a container for future values and is used to handle asynchronous operations. It is created using a `Constructor` function. 
+- A `Promise` is a special JavaScript object that acts as a container for future values and is used to handle asynchronous operations. It is created using a Constructor function. 
 
     The `Promise` object takes two parameters: `resolve` for success and `reject` if an error occurs.
 
@@ -100,3 +100,5 @@
     `xhr.open()` has two non-optional parameters -- method and url -- and three optional parameters -- async, user and password.
 
     The optional async parameter takes a boolean value. If the value is set to true, it indicates whether or not to perform the operation asynchronously. If the value is set to false, the `send()` method waits for a response to be received.
+
+- In JavaScript, Fetch API is a promise-based interface for fetching resources by invoking HTTP requests to servers from web browsers. The working is similar to XML HTTP requests, but it is better and more powerful. 
