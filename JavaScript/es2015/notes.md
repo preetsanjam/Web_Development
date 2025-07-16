@@ -102,3 +102,9 @@
     The optional async parameter takes a boolean value. If the value is set to true, it indicates whether or not to perform the operation asynchronously. If the value is set to false, the `send()` method waits for a response to be received.
 
 - In JavaScript, Fetch API is a promise-based interface for fetching resources by invoking HTTP requests to servers from web browsers. The working is similar to XML HTTP requests, but it is better and more powerful. 
+- The `fetch()` method has two parameters. The URL is the required parameter that refers to the path from which the resource is to be fetched and the second is an optional parameter that takes values such as Method, Headers, Body, Mode, Cache, etc.
+
+    Syntax:
+    ```
+    cosnt response = fetch(URL, [option]) 
+    ```
