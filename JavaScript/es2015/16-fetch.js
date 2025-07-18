@@ -23,5 +23,13 @@ fetch(
         // Whatever data is to be sent to the backend is to set to body
         // It cannot be a JS object, but a JSON-formatted string
         body: JSON.stringify(newTodo) 
+    },
+    {
+        // Telling the backend explicitly the format of the data
+        headers: {
+            'Content-Type': 'application/json'
+        }
     }
-)
+)   // All three arguments in the fetch() method returns a promise
+    .then(response => response.json())
+    .then(value => console.log(value));
