@@ -16,11 +16,12 @@ const newTodo = {
 
 fetch(
     'https://jsonplaceholder.typicode.com/todos/',
+    
     // Second argument is an object
     {
         method: 'POST',
 
-        // Whatever data is to be sent to the backend is to set to body
+        // Whatever data is to be sent to the backend is set to body
         // It cannot be a JS object, but a JSON-formatted string
         body: JSON.stringify(newTodo) 
     },
@@ -30,6 +31,6 @@ fetch(
             'Content-Type': 'application/json'
         }
     }
-)   // All three arguments in the fetch() method returns a promise
+)   // All three arguments in the fetch() method return a promise
     .then(response => response.json())
     .then(value => console.log(value));
