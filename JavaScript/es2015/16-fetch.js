@@ -6,6 +6,8 @@ fetch('https://jsonplaceholder.typicode.com/todos/1')
     .catch((error) => console.log(error.message));
 
 // POST data: Used to authenticate user's login credentials 
+
+// JavaScript object
 const newTodo = {
     "userId": 1,
     "title": "delectus aut autem",
@@ -14,8 +16,12 @@ const newTodo = {
 
 fetch(
     'https://jsonplaceholder.typicode.com/todos/',
+    // Second argument is an objects
     {
         method: 'POST',
-        body: JSON.stringify(newTodo)
+
+        // Whatever data is to be sent to the backend is to set to body
+        // It cannot be a JS object, but a which is JSON formatted
+        body: JSON.stringify(newTodo) 
     }
 )
