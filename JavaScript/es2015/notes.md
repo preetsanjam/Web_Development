@@ -116,3 +116,7 @@
 
 - The **HTTP `POST` method** is used to send data to the server. It is often used in applications where uploading a file or submitting a completed web form is required.
 - The `Content-Type`, aka MIME or media types, is an identifier used to convey to the HTTP client or server what the media/file type of a resource is. The identification of the file type enables the browser to work faster.  
+- How to send data to the backend?
+    - Create a JS object.
+    - Convert it into a JSON-formatted string using `JSON.stringify()`.
+    - Make a `fetch` call and the pass the data.
