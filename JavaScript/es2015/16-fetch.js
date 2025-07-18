@@ -16,12 +16,12 @@ const newTodo = {
 
 fetch(
     'https://jsonplaceholder.typicode.com/todos/',
-    // Second argument is an objects
+    // Second argument is an object
     {
         method: 'POST',
 
         // Whatever data is to be sent to the backend is to set to body
-        // It cannot be a JS object, but a which is JSON formatted
+        // It cannot be a JS object, but a JSON-formatted string
         body: JSON.stringify(newTodo) 
     }
 )
