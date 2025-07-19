@@ -13,12 +13,19 @@
     <!-- The 'import' statement gives us another way to import a JS file -->
     
     <script type="module">
-        import {sum, diff} from './01-index.js'; // './' indicates that the file exists in the current folder
+
+        // For named exports, we put the variables within the braces
+        // For default exports, we put them outside the braces
+        import Cmplx, {sum, diff, product as multiply} from './01-index.js'; // './' indicates the file exists in the current folder
         import {product} from './01-store.js';
         
         console.log(sum(10, 20));
         console.log(diff(10, 20));
         console.log(product('Soap', 35));
+        console.log(multiply(10, 20));
+
+        const cmplx = new Cmplx(10, 20);
+        console.log(cmplx.toString());
     </script>
 </body>
 </html>
