@@ -1,4 +1,4 @@
-const product = (name, price) => {
+export var product = (name, price) => {
     return { 
         name: name,
         price: price

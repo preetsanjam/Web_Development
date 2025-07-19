@@ -6,13 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./01-index.js"></script> <!-- ./ indicates that the file exists in the current folder -->
-    <script src="./01-store.js"></script>
-
-    <script>
-        console.log(sum(10,20));
-        console.log(diff(10,20));
-        console.log(product(10,20));
+    <!-- When we add something with type="module", an HTTP request is made -->
+    <!-- As we've included the 'import' statement, we don't need the 'src' statement -->
+    <!-- Therefore, the following code is optional -->
+    <!-- <script src="./01-index.js" type="module"></script> -->
+    <!-- The 'import' statement gives us another way to import a JS file -->
+    
+    <script type="module">
+        import {sum, diff} from './01-index.js'; // './' indicates that the file exists in the current folder
+        import {product} from './01-store.js';
+        
+        console.log(sum(10, 20));
+        console.log(diff(10, 20));
+        console.log(product('Soap', 35));
     </script>
 </body>
 </html>

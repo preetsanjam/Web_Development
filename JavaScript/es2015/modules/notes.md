@@ -1,3 +1,4 @@
 ## Notes
 
 - A **module** is essentially a JavaScript file, but we instruct the runtime to treat it in a special way—specifically, as a module. This allows the runtime to manage what the file exposes to the outside world and what it keeps private. A module can decide which functions, classes or variables should be accessible from other files, and which ones should remain internal. This encapsulation helps in organizing and reusing code effectively.
+- Once a file is treated as a module, its contents remain private by default. We can only use what the module explicitly exports. In other words, we cannot access anything inside a module unless it is explicitly exported.
