@@ -82,6 +82,8 @@
 
     The `catch{}` block handles the error of the code by executing the statements of the code written within it. This block is executed only when any error-prone code needs to be handled in the `try` block else the `catch` block is skipped. 
 
+    A `try`...`catch` is a frequently used statement in different programming languages. It is used to handle the error-prone portion of the code. Firstly, it tests the code for all possible errors it may have. Secondly, it implements actions to handle those errors, if any.   
+
     **Benefits of using promises:** Asynchronous operations are handled better, code readability is improved, which makes debugging easier, better error handling capability, and the flow of control is better specified by asynchronous code. 
 
 - Arrow function syntax automatically binds `this` to the nearby code's context. Writing the arrow (=>) is more flexible as compared to writing the `function` keyword. 
@@ -120,4 +122,8 @@
     - Create a JavaScript object.
     - Convert it into a JSON-formatted string using `JSON.stringify()`.
     - Make a `fetch` call and the pass the data.
-- `async`/`await` functions, a new addition to ES2017 (ES8), help us even more in allowing us to write completely synchronous-looking code while performing asynchronous tasks behind the scenes.  
+- `async`/`await` functions, a new addition to ES2017 (ES8), help us even more in allowing us to write completely synchronous-looking code while performing asynchronous tasks behind the scenes.
+
+    Whenever we are working with Promises and we want to simplify the code, we can use `async`/`await` functions compared to traditional `.then()` and `.catch()` chaining.
+
+    We must use `async`/`await` inside a function.
