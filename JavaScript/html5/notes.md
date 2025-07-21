@@ -5,3 +5,5 @@
 - JavaScript has a built-in method called `addEventListener`. It is a DOM Level 2 event handler. It allows you to prepare and set up functions that are going to be invoked when a particular event reaches its target.
 - The `querySelector()` method is used for searching and returning the first element within the document that matches the specified selector; if no matches are found, it returns null.
 - `localStorage` has a few methods that are used to interact with the object for storing, retrieving and deleting items in the storage. The available properties are: `setItem(key, value)`, `getItem(key)`, `removeItem(key)`, `key(index)`, `clear()` and `length`.
+
+    Whatever is stored in the local storage doesn't get erased.  
