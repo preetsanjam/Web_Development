@@ -7,3 +7,5 @@
 - `localStorage` has a few methods that are used to interact with the object for storing, retrieving and deleting items in the storage. The available properties are: `setItem(key, value)`, `getItem(key)`, `removeItem(key)`, `key(index)`, `clear()` and `length`.
 
     Whatever is stored in the local storage doesn't get erased.  
+    
+    The  `getItem(key)` method retrieves stored data in the browser. If a valid key is passed to the method, it will return the data. If the key does not exist, it will return null. 
