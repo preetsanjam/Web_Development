@@ -12,16 +12,23 @@
     </body>
 
     <script>
+        let favoriteColor, favoriteCity;
+
         document.querySelector('#favorite-color').addEventListener('input',
-        function() {
-            // LocalStorage stores only strings
-            localStorage.setItem('favorite-color', this.value);
-            document.body.style.backgroundColor = this.value;
+        function() {         
+            favoriteColor = this.value;
+            document.body.style.backgroundColor = favoriteColor;
+            
+            // Storing favoriteColor and favoriteCity in an object
+            // As we cannot store an object inside localStorage, we have to pass it through JSON.stringify()
+            // We're converting the JS object into a JSON-formatted string and storing it
+            localStorage.setItem('favorites', JSON.stringify({color: favoriteColor, city: favoriteCity}));
         });
 
         document.querySelector('#favorite-city').addEventListener('input', 
         function() {
-            localStorage.setItem('favorite-city', this.value);
+            favoriteCity = this.value;
+            localStorage.setItem('favorites', JSON.stringify({color: favoriteColor, city: favoriteCity}));
         });
     </script>
 

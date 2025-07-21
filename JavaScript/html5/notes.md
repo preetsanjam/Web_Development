@@ -9,5 +9,7 @@
     `localStorage` stores only string data type.
 
     Whatever is stored in the local storage doesn't get erased.  
+
+    Local storage has no data protection and it is therefore not secure to store sensitive data as they can be accessed by anyone. It can only store a maximum of 5 MB of data on the browser. 
     
     The  `getItem(key)` method retrieves stored data in the browser. If a valid key is passed to the method, it will return the data. If the key does not exist, it will return null. 

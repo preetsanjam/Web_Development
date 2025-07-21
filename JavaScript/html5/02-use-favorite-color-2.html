@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // localStorage.getItem('favorites') is a string
+        // We want to convert it into a JS object
+        // Now, favorites is an object
+        // Therefore, we can set backgroundColor to favorites.color
+        const favorites = JSON.parse(localStorage.getItem('favorites'));
+        document.body.style.backgroundColor = favorites.color; 
+    </script>
+</body>
+</html>
