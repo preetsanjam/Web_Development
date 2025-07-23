@@ -15,3 +15,5 @@
     The  `getItem(key)` method retrieves stored data in the browser. If a valid key is passed to the method, it will return the data. If the key does not exist, it will return null. 
 
 - **Session storage** is a form of web storage that allows current session data to be stored temporarily on the client side. Once the user closes the browser, all data stored in the session storage will be deleted. 
+
+    A "session" lasts as long as the browser tab remains open. Once the tab or window is closed, the data stored in session storage is deleted automatically.
